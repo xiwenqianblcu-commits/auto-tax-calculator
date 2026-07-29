@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "run_at": null,
+  "status": "awaiting_first_run",
+  "source_count": 10,
+  "baseline_count": 0,
+  "changed_count": 0,
+  "error_count": 0,
+  "pdf_source_count": 1,
+  "changes": [],
+  "baselines": [],
+  "errors": [],
+  "results": [],
+  "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"
+}

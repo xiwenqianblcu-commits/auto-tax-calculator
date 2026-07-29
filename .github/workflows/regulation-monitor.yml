@@ -7,6 +7,8 @@ on:
   push:
     paths:
       - ".github/workflows/regulation-monitor.yml"
+      - "automation/monitor_regulations.py"
+      - "automation/regulation-sources.json"
 
 permissions:
   contents: write

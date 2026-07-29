@@ -120,7 +120,7 @@ def fetch_source(source: dict) -> tuple[str, dict]:
             if error.code not in {429, 500, 502, 503, 504} or attempt == 2:
                 raise
             time.sleep(2 + attempt * 4)
-        except (URLError, TimeoutError) as error:
+        except (URLError, TimeoutError, OSError) as error:
             last_error = error
             if attempt == 2:
                 raise
@@ -222,7 +222,7 @@ def main() -> int:
                 outcome = "unchanged"
             state["sources"][source["id"]] = record
             results.append({"id": source["id"], "outcome": outcome})
-        except (HTTPError, URLError, TimeoutError, RuntimeError, ValueError) as error:
+        except Exception as error:
             detail = f"{type(error).__name__}: {error}"
             errors.append(
                 {

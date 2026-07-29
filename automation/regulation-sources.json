@@ -1,0 +1,82 @@
+[
+  {
+    "id": "br-ec-132-2023",
+    "country": "BR",
+    "title": "宪法修正案第132/2023号",
+    "topic": "消费税改革总框架",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+    "format": "html"
+  },
+  {
+    "id": "br-lcp-214-2025",
+    "country": "BR",
+    "title": "补充法第214/2025号",
+    "topic": "CBS、IBS与选择性税",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+    "format": "html"
+  },
+  {
+    "id": "br-lcp-227-2026",
+    "country": "BR",
+    "title": "补充法第227/2026号",
+    "topic": "IBS管理与税改实施",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
+    "format": "html"
+  },
+  {
+    "id": "br-decreto-12955-2026",
+    "country": "BR",
+    "title": "第12,955/2026号法令",
+    "topic": "CBS实施细则",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12955.htm",
+    "format": "html"
+  },
+  {
+    "id": "br-lei-14902-2024",
+    "country": "BR",
+    "title": "第14,902/2024号法律",
+    "topic": "MOVER绿色出行与创新计划",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm",
+    "format": "html"
+  },
+  {
+    "id": "br-decreto-12435-2025",
+    "country": "BR",
+    "title": "第12,435/2025号法令",
+    "topic": "MOVER进口与销售要求",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12435.htm",
+    "format": "html"
+  },
+  {
+    "id": "br-decreto-12549-2025",
+    "country": "BR",
+    "title": "第12,549/2025号法令",
+    "topic": "汽车IPI与MOVER参数",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12549.htm",
+    "format": "html"
+  },
+  {
+    "id": "br-receita-orientacoes-2026",
+    "country": "BR",
+    "title": "巴西税务局2026年税改指引",
+    "topic": "CBS与IBS过渡期申报",
+    "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+    "format": "html"
+  },
+  {
+    "id": "br-cgibs-res-6-2026",
+    "country": "BR",
+    "title": "CGIBS第6/2026号决议",
+    "topic": "IBS实施细则附件",
+    "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+    "format": "pdf"
+  },
+  {
+    "id": "br-confaz-convenios-2026",
+    "country": "BR",
+    "title": "CONFAZ 2026年ICMS协议目录",
+    "topic": "州级ICMS协议",
+    "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2026",
+    "format": "html"
+  }
+]

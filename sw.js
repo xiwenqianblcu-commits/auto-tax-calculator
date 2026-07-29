@@ -1,4 +1,4 @@
-const CACHE = "autotax-atlas-v1";
+const CACHE = "autotax-atlas-v2";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
 
 self.addEventListener("install", (event) => {

@@ -1,121 +1,88 @@
 {
   "schema_version": 1,
-  "run_at": "2026-07-29T09:01:46.461512+00:00",
-  "status": "partial_error",
+  "run_at": "2026-07-29T09:15:11.949037+00:00",
+  "status": "healthy",
   "source_count": 10,
-  "baseline_count": 2,
+  "baseline_count": 8,
   "changed_count": 0,
-  "error_count": 8,
-  "pdf_source_count": 1,
+  "error_count": 0,
+  "pdf_source_count": 2,
   "changes": [],
   "baselines": [
     {
-      "id": "br-receita-orientacoes-2026",
-      "title": "巴西税务局2026年税改指引"
-    },
-    {
-      "id": "br-cgibs-res-6-2026",
-      "title": "CGIBS第6/2026号决议"
-    }
-  ],
-  "errors": [
-    {
       "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "title": "宪法修正案第132/2023号"
     },
     {
       "id": "br-lcp-214-2025",
-      "title": "补充法第214/2025号",
-      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "title": "补充法第214/2025号"
     },
     {
       "id": "br-lcp-227-2026",
-      "title": "补充法第227/2026号",
-      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "title": "补充法第227/2026号"
     },
     {
       "id": "br-decreto-12955-2026",
-      "title": "第12,955/2026号法令",
-      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12955.htm",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "title": "第12,955/2026号法令"
     },
     {
       "id": "br-lei-14902-2024",
-      "title": "第14,902/2024号法律",
-      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14902.htm",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "title": "第14,902/2024号法律"
     },
     {
       "id": "br-decreto-12435-2025",
-      "title": "第12,435/2025号法令",
-      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12435.htm",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "title": "第12,435/2025号法令"
     },
     {
       "id": "br-decreto-12549-2025",
-      "title": "第12,549/2025号法令",
-      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12549.htm",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "title": "第12,549/2025号法令"
     },
     {
-      "id": "br-confaz-convenios-2026",
-      "title": "CONFAZ 2026年ICMS协议目录",
-      "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2026",
-      "detail": "URLError: <urlopen error timed out>"
+      "id": "br-decreto-12549-annex-2025",
+      "title": "第12,549/2025号法令附件"
     }
   ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "outcome": "baseline"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "error",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "outcome": "baseline"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "error",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "outcome": "baseline"
     },
     {
       "id": "br-decreto-12955-2026",
-      "outcome": "error",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "outcome": "baseline"
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "error",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "outcome": "baseline"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "error",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "outcome": "baseline"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "error",
-      "detail": "RemoteDisconnected: Remote end closed connection without response"
+      "outcome": "baseline"
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "baseline"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "baseline"
+      "outcome": "unchanged"
     },
     {
-      "id": "br-confaz-convenios-2026",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "id": "br-decreto-12549-annex-2025",
+      "outcome": "baseline"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

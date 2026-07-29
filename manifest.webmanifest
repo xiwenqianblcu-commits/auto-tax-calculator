@@ -1,0 +1,19 @@
+{
+  "name": "AutoTax Atlas 全球汽车税率计算器",
+  "short_name": "AutoTax Atlas",
+  "description": "汽车进口税率测算、年度比较和法规依据查询工具",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#0f172a",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

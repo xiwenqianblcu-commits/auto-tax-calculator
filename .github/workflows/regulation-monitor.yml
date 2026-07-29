@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: regulation-monitor
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   monitor:

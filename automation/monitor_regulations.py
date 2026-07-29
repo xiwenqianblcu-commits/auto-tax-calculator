@@ -15,6 +15,7 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -179,10 +180,36 @@ def main() -> int:
     errors: list[dict] = []
     results: list[dict] = []
 
+    fetched: dict[str, tuple[tuple[str, dict] | None, Exception | None]] = {}
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        pending = {
+            executor.submit(fetch_source, source): source["id"]
+            for source in sources
+        }
+        for future in as_completed(pending):
+            source_id = pending[future]
+            try:
+                fetched[source_id] = (future.result(), None)
+            except Exception as error:
+                fetched[source_id] = (None, error)
+
     for source in sources:
         previous = state["sources"].get(source["id"], {})
+        fetched_value, fetched_error = fetched[source["id"]]
+        if fetched_error:
+            detail = f"{type(fetched_error).__name__}: {fetched_error}"
+            errors.append(
+                {
+                    "id": source["id"],
+                    "title": source["title"],
+                    "url": source["url"],
+                    "detail": detail[:500],
+                }
+            )
+            results.append({"id": source["id"], "outcome": "error", "detail": detail[:500]})
+            continue
         try:
-            text, metadata = fetch_source(source)
+            text, metadata = fetched_value
             digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
             excerpt = text[:6000]
             record = {

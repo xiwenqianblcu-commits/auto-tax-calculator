@@ -1,76 +1,103 @@
 {
   "schema_version": 1,
-  "run_at": "2026-07-29T09:15:11.949037+00:00",
-  "status": "healthy",
+  "run_at": "2026-07-30T09:46:49.447764+00:00",
+  "status": "review_required",
   "source_count": 10,
-  "baseline_count": 8,
-  "changed_count": 0,
-  "error_count": 0,
+  "baseline_count": 0,
+  "changed_count": 1,
+  "error_count": 6,
   "pdf_source_count": 2,
-  "changes": [],
-  "baselines": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号"
-    },
+  "changes": [
     {
       "id": "br-lcp-214-2025",
-      "title": "补充法第214/2025号"
-    },
+      "country": "BR",
+      "title": "补充法第214/2025号",
+      "topic": "CBS、IBS与选择性税",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detected_at": "2026-07-30T09:46:49.447764+00:00",
+      "old_sha256": "b777c94328c4fb39641917eccf867e6278bc65df5141c453dd63c7a99035d5bb",
+      "new_sha256": "9d67ffcc250d04b42e4aa9bf96daaf2ec083dadaf30a786e1cb36f41af5ee19d",
+      "old_length": 67498,
+      "new_length": 67498,
+      "length_delta": 0,
+      "diff_excerpt": "",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    }
+  ],
+  "baselines": [],
+  "errors": [
     {
-      "id": "br-lcp-227-2026",
-      "title": "补充法第227/2026号"
-    },
-    {
-      "id": "br-decreto-12955-2026",
-      "title": "第12,955/2026号法令"
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lei-14902-2024",
-      "title": "第14,902/2024号法律"
+      "title": "第14,902/2024号法律",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12435-2025",
-      "title": "第12,435/2025号法令"
+      "title": "第12,435/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-2025",
-      "title": "第12,549/2025号法令"
+      "title": "第12,549/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-cgibs-res-6-2026",
+      "title": "CGIBS第6/2026号决议",
+      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "title": "第12,549/2025号法令附件"
+      "title": "第12,549/2025号法令附件",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
+      "detail": "URLError: <urlopen error timed out>"
     }
   ],
-  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "baseline"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "baseline"
+      "outcome": "changed"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "baseline"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
-      "outcome": "baseline"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "baseline"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "baseline"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "baseline"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-receita-orientacoes-2026",
@@ -78,11 +105,13 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "baseline"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

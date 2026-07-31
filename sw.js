@@ -1,11 +1,11 @@
-const CACHE = "autotax-atlas-v3";
+const CACHE = "autotax-atlas-v4";
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon.svg",
-  "./assets/app.css?v=20260731-1",
-  "./assets/app.js?v=20260731-1",
+  "./assets/app.css?v=20260731-2",
+  "./assets/app.js?v=20260731-2",
 ];
 
 self.addEventListener("install", (event) => {

@@ -13687,7 +13687,7 @@ function Fy() {
                       }),
                       (0, o.jsx)("h2", {
                         id: "install-title",
-                        children: "\u5B89\u88C5\u7F51\u9875\u5E94\u7528",
+                        children: "\u9009\u62E9\u5B89\u88C5\u65B9\u5F0F",
                       }),
                     ],
                   }),
@@ -13702,14 +13702,20 @@ function Fy() {
               (0, o.jsx)("p", {
                 className: "install-intro",
                 children:
-                  "\u8FD9\u91CC\u5B89\u88C5\u7684\u662F PWA \u7F51\u9875\u5E94\u7528\uFF0C\u4E0D\u4F1A\u4E0B\u8F7D APK\u3002\u5B89\u88C5\u540E\u53EF\u4ECE\u684C\u9762\u6216\u4E3B\u5C4F\u5E55\u72EC\u7ACB\u542F\u52A8\u3002",
+                  "Android \u53EF\u76F4\u63A5\u4E0B\u8F7D\u5DF2\u9A8C\u8BC1\u7684\u6D4B\u8BD5\u538B\u7F29\u5305\uFF1B\u7535\u8111\u3001iPhone \u548C\u652F\u6301 PWA \u7684 Android \u6D4F\u89C8\u5668\u4E5F\u53EF\u5B89\u88C5\u7F51\u9875\u5E94\u7528\u3002",
+              }),
+              (0, o.jsx)("a", {
+                className: "install-android-download",
+                href: "./downloads/autotax-atlas-android-debug.zip",
+                download: "autotax-atlas-android-debug.zip",
+                children:
+                  "\u4E0B\u8F7D Android \u6D4B\u8BD5\u5305\uFF08ZIP\uFF0C\u7EA6 4.4 MB\uFF09",
               }),
               bi &&
                 (0, o.jsx)("button", {
                   className: "install-primary",
                   onClick: Km,
-                  children:
-                    "\u7ACB\u5373\u5B89\u88C5\u5230\u5F53\u524D\u8BBE\u5907",
+                  children: "\u5B89\u88C5 PWA \u5230\u5F53\u524D\u8BBE\u5907",
                 }),
               (0, o.jsxs)("div", {
                 className: "install-platforms",
@@ -13728,7 +13734,7 @@ function Fy() {
                       (0, o.jsx)("b", { children: "Android" }),
                       (0, o.jsx)("p", {
                         children:
-                          "\u4F7F\u7528 Chrome \u83DC\u5355\u4E2D\u7684\u201C\u5B89\u88C5\u5E94\u7528\u201D\u6216\u201C\u6DFB\u52A0\u5230\u4E3B\u5C4F\u5E55\u201D\u3002",
+                          "\u4E0B\u8F7D ZIP \u540E\u89E3\u538B\u5E76\u5B89\u88C5 app-debug.apk\uFF1B\u9996\u6B21\u5B89\u88C5\u53EF\u80FD\u9700\u5141\u8BB8\u5F53\u524D\u6D4F\u89C8\u5668\u201C\u5B89\u88C5\u672A\u77E5\u5E94\u7528\u201D\u3002",
                       }),
                     ],
                   }),
@@ -13746,7 +13752,7 @@ function Fy() {
               (0, o.jsx)("p", {
                 className: "install-note",
                 children:
-                  "\u5982\u679C\u6CA1\u6709\u770B\u5230\u4E0A\u65B9\u7684\u201C\u7ACB\u5373\u5B89\u88C5\u201D\u6309\u94AE\uFF0C\u8BF7\u6539\u7528\u6700\u65B0\u7248 Chrome \u6253\u5F00\uFF0C\u5E76\u907F\u514D\u4F7F\u7528\u5FAE\u4FE1\u3001QQ \u6216\u7CFB\u7EDF\u5185\u7F6E\u6D4F\u89C8\u5668\u3002",
+                  "Android \u5B89\u88C5\u5305\u4E3A\u8C03\u8BD5\u6D4B\u8BD5\u7248\uFF0C\u9002\u5408\u771F\u673A\u8BD5\u7528\uFF0C\u4E0D\u4F5C\u4E3A\u5E94\u7528\u5546\u5E97\u6B63\u5F0F\u53D1\u5E03\u7248\u3002\u5982\u679C PWA \u5B89\u88C5\u6309\u94AE\u672A\u51FA\u73B0\uFF0C\u8BF7\u6539\u7528\u6700\u65B0\u7248 Chrome\u3002",
               }),
             ],
           }),
@@ -13795,21 +13801,33 @@ function Fy() {
                     children: [
                       (0, o.jsx)("span", {
                         className: "step-label",
-                        children: "\u7F51\u9875\u5E94\u7528",
+                        children: "\u7F51\u9875\u4E0E Android \u5E94\u7528",
                       }),
                       (0, o.jsx)("h2", {
                         children:
-                          "\u628A\u7A0E\u7387\u8BA1\u7B97\u5668\u5B89\u88C5\u5230\u7535\u8111\u6216\u624B\u673A",
+                          "\u5B89\u88C5\u7F51\u9875\u5E94\u7528\uFF0C\u6216\u4E0B\u8F7D Android \u6D4B\u8BD5\u7248",
                       }),
                       (0, o.jsx)("p", {
                         children:
-                          "\u72EC\u7ACB\u7A97\u53E3\u542F\u52A8\uFF0C\u65E0\u9700\u6BCF\u6B21\u67E5\u627E\u7F51\u5740\uFF1B\u652F\u6301 Windows\u3001macOS\u3001Android \u548C iPhone\u3002",
+                          "Android \u538B\u7F29\u5305\u7EA6 4.4 MB\uFF0C\u89E3\u538B\u540E\u5B89\u88C5 APK\uFF1BWindows\u3001macOS \u548C iPhone \u53EF\u4F7F\u7528 PWA\u3002",
                       }),
                     ],
                   }),
-                  (0, o.jsx)("button", {
-                    onClick: Rm,
-                    children: "\u67E5\u770B\u5B89\u88C5\u65B9\u5F0F",
+                  (0, o.jsxs)("div", {
+                    className: "download-actions",
+                    children: [
+                      (0, o.jsx)("a", {
+                        className: "android-download",
+                        href: "./downloads/autotax-atlas-android-debug.zip",
+                        download: "autotax-atlas-android-debug.zip",
+                        children: "\u4E0B\u8F7D Android \u6D4B\u8BD5\u5305",
+                      }),
+                      (0, o.jsx)("button", {
+                        className: "pwa-install",
+                        onClick: Rm,
+                        children: "\u5B89\u88C5\u7F51\u9875\u5E94\u7528",
+                      }),
+                    ],
                   }),
                 ],
               }),

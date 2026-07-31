@@ -1,4 +1,4 @@
-const CACHE = "autotax-atlas-v5";
+const CACHE = "autotax-atlas-v6";
 const CORE = [
   "./",
   "./index.html",
@@ -7,8 +7,8 @@ const CORE = [
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/icon-maskable-512.png",
-  "./assets/app.css?v=20260731-3",
-  "./assets/app.js?v=20260731-3",
+  "./assets/app.css?v=20260731-4",
+  "./assets/app.js?v=20260731-4",
 ];
 
 self.addEventListener("install", (event) => {
@@ -31,6 +31,12 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+
+  const url = new URL(event.request.url);
+  if (/\.(zip|apk)$/i.test(url.pathname)) {
+    event.respondWith(fetch(event.request));
+    return;
+  }
 
   if (event.request.mode === "navigate") {
     event.respondWith(

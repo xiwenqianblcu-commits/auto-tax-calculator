@@ -901,17 +901,34 @@ td a {
   color: var(--muted);
   font-size: 11px;
 }
-.download-banner > button,
-.install-primary {
+.download-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.download-actions a,
+.download-actions button,
+.install-primary,
+.install-android-download {
   min-height: 42px;
   padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
   border-radius: 10px;
   background: var(--blue);
   color: #fff;
   font-size: 12px;
   font-weight: 750;
+  text-decoration: none;
   box-shadow: 0 8px 20px #2563eb29;
+}
+.download-actions .pwa-install {
+  border: 1px solid #9eb8f5;
+  background: #fff;
+  color: #1d4ed8;
+  box-shadow: none;
 }
 .install-overlay {
   position: fixed;
@@ -963,6 +980,12 @@ td a {
 .install-primary {
   width: 100%;
   margin-bottom: 14px;
+}
+.install-android-download {
+  width: 100%;
+  margin-bottom: 9px;
+  background: var(--ink);
+  box-shadow: 0 8px 20px #0f172a29;
 }
 .install-platforms {
   display: grid;
@@ -1107,7 +1130,12 @@ html[data-app-installed="true"] .install-launch {
   .download-mark {
     display: none;
   }
-  .download-banner > button {
+  .download-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .download-actions a,
+  .download-actions button {
     width: 100%;
   }
   .install-dialog {

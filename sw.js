@@ -1,5 +1,12 @@
-const CACHE = "autotax-atlas-v2";
-const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
+const CACHE = "autotax-atlas-v3";
+const CORE = [
+  "./",
+  "./index.html",
+  "./manifest.webmanifest",
+  "./icon.svg",
+  "./assets/app.css?v=20260731-1",
+  "./assets/app.js?v=20260731-1",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(CORE)));
@@ -19,13 +26,35 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+
+  if (event.request.mode === "navigate") {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (response.ok && response.type === "basic") {
+            event.waitUntil(
+              caches.open(CACHE).then((cache) => cache.put("./index.html", response.clone())),
+            );
+          }
+          return response;
+        })
+        .catch(() => caches.match("./index.html")),
+    );
+    return;
+  }
+
   event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        const copy = response.clone();
-        caches.open(CACHE).then((cache) => cache.put(event.request, copy));
-        return response;
-      })
-      .catch(() => caches.match(event.request).then((hit) => hit || caches.match("./"))),
+    caches.match(event.request).then(
+      (cached) =>
+        cached ||
+        fetch(event.request).then((response) => {
+          if (response.ok && response.type === "basic") {
+            event.waitUntil(
+              caches.open(CACHE).then((cache) => cache.put(event.request, response.clone())),
+            );
+          }
+          return response;
+        }),
+    ),
   );
 });

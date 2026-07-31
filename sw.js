@@ -1,11 +1,14 @@
-const CACHE = "autotax-atlas-v4";
+const CACHE = "autotax-atlas-v5";
 const CORE = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon.svg",
-  "./assets/app.css?v=20260731-2",
-  "./assets/app.js?v=20260731-2",
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
+  "./icons/icon-maskable-512.png",
+  "./assets/app.css?v=20260731-3",
+  "./assets/app.js?v=20260731-3",
 ];
 
 self.addEventListener("install", (event) => {
@@ -18,7 +21,9 @@ self.addEventListener("activate", (event) => {
     caches
       .keys()
       .then((keys) =>
-        Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))),
+        Promise.all(
+          keys.filter((key) => key !== CACHE).map((key) => caches.delete(key)),
+        ),
       ),
   );
   self.clients.claim();
@@ -33,7 +38,9 @@ self.addEventListener("fetch", (event) => {
         .then((response) => {
           if (response.ok && response.type === "basic") {
             event.waitUntil(
-              caches.open(CACHE).then((cache) => cache.put("./index.html", response.clone())),
+              caches
+                .open(CACHE)
+                .then((cache) => cache.put("./index.html", response.clone())),
             );
           }
           return response;
@@ -50,7 +57,9 @@ self.addEventListener("fetch", (event) => {
         fetch(event.request).then((response) => {
           if (response.ok && response.type === "basic") {
             event.waitUntil(
-              caches.open(CACHE).then((cache) => cache.put(event.request, response.clone())),
+              caches
+                .open(CACHE)
+                .then((cache) => cache.put(event.request, response.clone())),
             );
           }
           return response;

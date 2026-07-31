@@ -1,0 +1,9 @@
+# Android build outputs and private signing material
+android-twa/.gradle/
+android-twa/local.properties
+android-twa/app/build/
+android-twa/build/
+android-twa/android.keystore
+android-twa/*.apk
+android-twa/*.aab
+

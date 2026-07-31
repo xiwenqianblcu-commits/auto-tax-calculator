@@ -2,6 +2,7 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -13,8 +14,9 @@
     <title>AutoTax Atlas｜全球汽车税率计算器</title>
   </head>
   <body>
-    <div id="root"></div>
-    <link rel="stylesheet" href="./assets/app.css" />
-    <script type="module" src="./assets/app.js"></script>
+    <div id="root"><noscript>请启用 JavaScript 后使用税率计算器。</noscript></div>
+    <link rel="stylesheet" href="./assets/app.css?v=20260731-1" />
+    <script nomodule>document.getElementById("root").innerHTML="<main style=\"max-width:680px;margin:48px auto;padding:24px;font-family:sans-serif\"><h1>浏览器版本过旧</h1><p>请升级系统浏览器，或使用最新版 Chrome、Safari、Edge 后重新打开。</p></main>";</script>
+    <script type="module" src="./assets/app.js?v=20260731-1"></script>
   </body>
 </html>

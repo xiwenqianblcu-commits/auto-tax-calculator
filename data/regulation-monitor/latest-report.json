@@ -1,62 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-09T04:49:29.686561+00:00",
+  "run_at": "2026-08-10T05:53:00.301805+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 3,
-  "error_count": 0,
+  "changed_count": 1,
+  "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
-    {
-      "id": "br-lcp-227-2026",
-      "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-08-09T04:49:29.686561+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
-      "old_length": 21863,
-      "new_length": 21863,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,16 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -419,16 +429,6 @@  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
     {
       "id": "br-decreto-12955-2026",
       "country": "BR",
       "title": "第12,955/2026号法令",
       "topic": "CBS实施细则",
       "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-08-09T04:49:29.686561+00:00",
-      "old_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
-      "new_sha256": "7f9ceb7a56cc4e3e8e5cab3b723a0ee6ecf16afec991c17fb14b9a22faf0e2ae",
+      "detected_at": "2026-08-10T05:53:00.301805+00:00",
+      "old_sha256": "7f9ceb7a56cc4e3e8e5cab3b723a0ee6ecf16afec991c17fb14b9a22faf0e2ae",
+      "new_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
       "old_length": 8922,
       "new_length": 8922,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Contribuição -Social +Administração +Tributária  Economia  e  Desenvolvimento  /  Tributos  / -Administração -Tributária +Contribuição +Social  Indexação  Clique  para",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-receita-orientacoes-2026",
-      "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-08-09T04:49:29.686561+00:00",
-      "old_sha256": "4f566ca09cf9baca3c29ce6b26c79b486523770d0508f3d6eed8076470f5f39c",
-      "new_sha256": "7b5adda1320889620911eb4e24f70fef800be18aed017f2d305f82181df242cf",
-      "old_length": 17328,
-      "new_length": 17502,
-      "length_delta": 174,
-      "diff_excerpt": "--- previous +++ observed @@ -682,9 +682,22 @@  Cooperação  Documentos  Técnicos +Estudos +Tributários +e +Aduaneiros +Guias +e +Roteiros  Manuais  Materiais  Didáticos +Modelos +de +Documentos +Passo +a +Passos  Perguntas  e  Respostas @@ -767,15 +780,4 @@  Nacional  Redes  de -Atendimento -da -Administração -Pública -Federal -Proteção -de -Dados -Pessoais -Serviços -para -Imig +Ate",
+      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Administração -Tributária +Contribuição +Social  Economia  e  Desenvolvimento  /  Tributos  / -Contribuição -Social +Administração +Tributária  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -64,7 +28,14 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-lcp-214-2025",
+      "title": "补充法第214/2025号",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detail": "IncompleteRead: IncompleteRead(458952 bytes read)"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
@@ -72,11 +43,12 @@
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(458952 bytes read)"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -96,7 +68,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

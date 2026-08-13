@@ -1,26 +1,44 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-12T05:51:53.152529+00:00",
+  "run_at": "2026-08-13T05:53:51.250679+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
-  "error_count": 0,
+  "changed_count": 4,
+  "error_count": 5,
   "pdf_source_count": 2,
   "changes": [
+    {
+      "id": "br-lcp-214-2025",
+      "country": "BR",
+      "title": "补充法第214/2025号",
+      "topic": "CBS、IBS与选择性税",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detected_at": "2026-08-13T05:53:51.250679+00:00",
+      "old_sha256": "9d67ffcc250d04b42e4aa9bf96daaf2ec083dadaf30a786e1cb36f41af5ee19d",
+      "new_sha256": "b777c94328c4fb39641917eccf867e6278bc65df5141c453dd63c7a99035d5bb",
+      "old_length": 67498,
+      "new_length": 67498,
+      "length_delta": 0,
+      "diff_excerpt": "",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
     {
       "id": "br-lcp-227-2026",
       "country": "BR",
       "title": "补充法第227/2026号",
       "topic": "IBS管理与税改实施",
       "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-08-12T05:51:53.152529+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "8e6d1a6b8c9b18808388ce1ae0bb3a644d5261737a3ab0a3ba9f9adb5a65819b",
+      "detected_at": "2026-08-13T05:53:51.250679+00:00",
+      "old_sha256": "8e6d1a6b8c9b18808388ce1ae0bb3a644d5261737a3ab0a3ba9f9adb5a65819b",
+      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
       "old_length": 21863,
       "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,27 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo +Organização +do +Estado +/ +Organização +Federativa +Economia +e +Desenvolvimento +/ +Tributos  Administração  Pública  / @@ -408,27 +429,6 @@  Administração  Pública  Direta -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -399,27 +399,6 @@  182.  Classificação  Temática -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo -Organização -do -Estado -/ -Organização -Federativa -Economia -e -Desenvolvimento -/ -Tributos  Administração  Pública  / @@ -429,6 +408,27 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -32,13 +50,31 @@
       "title": "第12,955/2026号法令",
       "topic": "CBS实施细则",
       "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-08-12T05:51:53.152529+00:00",
-      "old_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
-      "new_sha256": "7f9ceb7a56cc4e3e8e5cab3b723a0ee6ecf16afec991c17fb14b9a22faf0e2ae",
+      "detected_at": "2026-08-13T05:53:51.250679+00:00",
+      "old_sha256": "7f9ceb7a56cc4e3e8e5cab3b723a0ee6ecf16afec991c17fb14b9a22faf0e2ae",
+      "new_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
       "old_length": 8922,
       "new_length": 8922,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Contribuição -Social +Administração +Tributária  Economia  e  Desenvolvimento  /  Tributos  / -Administração -Tributária +Contribuição +Social  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Administração -Tributária +Contribuição +Social  Economia  e  Desenvolvimento  /  Tributos  / -Contribuição -Social +Administração +Tributária  Indexação  Clique  para",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
+    {
+      "id": "br-receita-orientacoes-2026",
+      "country": "BR",
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-08-13T05:53:51.250679+00:00",
+      "old_sha256": "18fd7a368e364879443d9862474d9a3bb751a4b3cd6394110c0fe61d71f8cd79",
+      "new_sha256": "7938043dbcf610d1bb83a64c1b9eaaf0dcd687d035f7548ffc52ed3f7a266be9",
+      "old_length": 17548,
+      "new_length": 17576,
+      "length_delta": 28,
+      "diff_excerpt": "--- previous +++ observed @@ -680,6 +680,7 @@  Acordos  de  Cooperação +Apresentações  Documentos  Técnicos  Estudos @@ -777,5 +778,4 @@  Público  Temas  em -Destaque -Orçament +Des",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -46,15 +82,47 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+    },
+    {
+      "id": "br-lei-14902-2024",
+      "title": "第14,902/2024号法律",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12435-2025",
+      "title": "第12,435/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-2025",
+      "title": "第12,549/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-annex-2025",
+      "title": "第12,549/2025号法令附件",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-lcp-227-2026",
@@ -66,19 +134,22 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",
@@ -86,7 +157,8 @@
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

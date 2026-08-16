@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-15T03:09:49.862346+00:00",
+  "run_at": "2026-08-16T03:30:11.239165+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 2,
-  "error_count": 1,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,12 +14,12 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-08-15T03:09:49.862346+00:00",
-      "old_sha256": "b777c94328c4fb39641917eccf867e6278bc65df5141c453dd63c7a99035d5bb",
-      "new_sha256": "cd4fb87b2bbbaa20d86fb4989c675e1d9f9cfba91037fc2e93992ac53180d795",
-      "old_length": 67498,
+      "detected_at": "2026-08-16T03:30:11.239165+00:00",
+      "old_sha256": "cd4fb87b2bbbaa20d86fb4989c675e1d9f9cfba91037fc2e93992ac53180d795",
+      "new_sha256": "80004edd2c4933a31bd66c586c8271228f2f0e103d4d267c8408e0ba1e7060e6",
+      "old_length": 71136,
       "new_length": 71136,
-      "length_delta": 3638,
+      "length_delta": 0,
       "diff_excerpt": "",
       "parser": "html",
       "page_count": null,
@@ -27,18 +27,18 @@
       "review_status": "pending"
     },
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-decreto-12955-2026",
       "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-08-15T03:09:49.862346+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
-      "old_length": 21863,
-      "new_length": 21863,
+      "title": "第12,955/2026号法令",
+      "topic": "CBS实施细则",
+      "url": "https://legis.senado.leg.br/norma/43106091",
+      "detected_at": "2026-08-16T03:30:11.239165+00:00",
+      "old_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
+      "new_sha256": "7f9ceb7a56cc4e3e8e5cab3b723a0ee6ecf16afec991c17fb14b9a22faf0e2ae",
+      "old_length": 8922,
+      "new_length": 8922,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,16 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -419,16 +429,6 @@  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Contribuição -Social +Administração +Tributária  Economia  e  Desenvolvimento  /  Tributos  / -Administração -Tributária +Contribuição +Social  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -46,19 +46,11 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
@@ -66,11 +58,11 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-lei-14902-2024",

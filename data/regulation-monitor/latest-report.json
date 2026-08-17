@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-16T03:30:11.239165+00:00",
+  "run_at": "2026-08-17T03:31:10.068228+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 2,
-  "error_count": 0,
+  "error_count": 6,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,9 +14,9 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-08-16T03:30:11.239165+00:00",
-      "old_sha256": "cd4fb87b2bbbaa20d86fb4989c675e1d9f9cfba91037fc2e93992ac53180d795",
-      "new_sha256": "80004edd2c4933a31bd66c586c8271228f2f0e103d4d267c8408e0ba1e7060e6",
+      "detected_at": "2026-08-17T03:31:10.068228+00:00",
+      "old_sha256": "80004edd2c4933a31bd66c586c8271228f2f0e103d4d267c8408e0ba1e7060e6",
+      "new_sha256": "8baf2288b3a9314b62b2485f18bef10c098dcce09056a6601e165b4e4bbc9668",
       "old_length": 71136,
       "new_length": 71136,
       "length_delta": 0,
@@ -32,13 +32,13 @@
       "title": "第12,955/2026号法令",
       "topic": "CBS实施细则",
       "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-08-16T03:30:11.239165+00:00",
-      "old_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
-      "new_sha256": "7f9ceb7a56cc4e3e8e5cab3b723a0ee6ecf16afec991c17fb14b9a22faf0e2ae",
+      "detected_at": "2026-08-17T03:31:10.068228+00:00",
+      "old_sha256": "7f9ceb7a56cc4e3e8e5cab3b723a0ee6ecf16afec991c17fb14b9a22faf0e2ae",
+      "new_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
       "old_length": 8922,
       "new_length": 8922,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Contribuição -Social +Administração +Tributária  Economia  e  Desenvolvimento  /  Tributos  / -Administração -Tributária +Contribuição +Social  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Administração -Tributária +Contribuição +Social  Economia  e  Desenvolvimento  /  Tributos  / -Contribuição -Social +Administração +Tributária  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -46,11 +46,49 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
+    },
+    {
+      "id": "br-lei-14902-2024",
+      "title": "第14,902/2024号法律",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12435-2025",
+      "title": "第12,435/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-2025",
+      "title": "第12,549/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-cgibs-res-6-2026",
+      "title": "CGIBS第6/2026号决议",
+      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-annex-2025",
+      "title": "第12,549/2025号法令附件",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
@@ -66,15 +104,18 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-receita-orientacoes-2026",
@@ -82,11 +123,13 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

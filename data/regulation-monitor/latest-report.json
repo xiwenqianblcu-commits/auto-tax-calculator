@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-19T03:26:58.039464+00:00",
+  "run_at": "2026-08-20T03:26:40.648072+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 1,
-  "error_count": 4,
+  "changed_count": 2,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,9 +14,9 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-08-19T03:26:58.039464+00:00",
-      "old_sha256": "8baf2288b3a9314b62b2485f18bef10c098dcce09056a6601e165b4e4bbc9668",
-      "new_sha256": "cd4fb87b2bbbaa20d86fb4989c675e1d9f9cfba91037fc2e93992ac53180d795",
+      "detected_at": "2026-08-20T03:26:40.648072+00:00",
+      "old_sha256": "cd4fb87b2bbbaa20d86fb4989c675e1d9f9cfba91037fc2e93992ac53180d795",
+      "new_sha256": "2f35f290bfffa18e45002224bb08f83bc5b8d277056882a003689742e9a8244e",
       "old_length": 71136,
       "new_length": 71136,
       "length_delta": 0,
@@ -25,35 +25,28 @@
       "page_count": null,
       "needs_ocr": false,
       "review_status": "pending"
+    },
+    {
+      "id": "br-lcp-227-2026",
+      "country": "BR",
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-08-20T03:26:40.648072+00:00",
+      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "new_sha256": "18f32a33d8e222c7d519840c7efce124102e7c968a3cb887c6012ed3680863bf",
+      "old_length": 21863,
+      "new_length": 21863,
+      "length_delta": 0,
+      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,22 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo +Organização +do +Estado +/ +Organização +Federativa  Administração  Pública  / @@ -413,22 +429,6 @@  Desenvolvimento  /  Tributos -Organização -do -Estado -/ -Organização -Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-lei-14902-2024",
-      "title": "第14,902/2024号法律",
-      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
-      "detail": "URLError: <urlopen error timed out>"
-    },
-    {
-      "id": "br-decreto-12435-2025",
-      "title": "第12,435/2025号法令",
-      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
-      "detail": "URLError: <urlopen error timed out>"
-    },
-    {
-      "id": "br-decreto-12549-2025",
-      "title": "第12,549/2025号法令",
-      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
-      "detail": "URLError: <urlopen error timed out>"
-    },
-    {
-      "id": "br-decreto-12549-annex-2025",
-      "title": "第12,549/2025号法令附件",
-      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
-      "detail": "URLError: <urlopen error timed out>"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
@@ -65,7 +58,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -73,18 +66,15 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-receita-orientacoes-2026",
@@ -96,8 +86,7 @@
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

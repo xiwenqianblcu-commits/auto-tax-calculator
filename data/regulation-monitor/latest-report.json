@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-21T03:36:10.984682+00:00",
+  "run_at": "2026-08-22T03:13:25.338242+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 2,
-  "error_count": 1,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,9 +14,9 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-08-21T03:36:10.984682+00:00",
-      "old_sha256": "2f35f290bfffa18e45002224bb08f83bc5b8d277056882a003689742e9a8244e",
-      "new_sha256": "177621227a9069fffb6220f69a24f9f9d81c2392ab5afa81e7456b82670ef0ee",
+      "detected_at": "2026-08-22T03:13:25.338242+00:00",
+      "old_sha256": "177621227a9069fffb6220f69a24f9f9d81c2392ab5afa81e7456b82670ef0ee",
+      "new_sha256": "2be0097cb10b9c7389d3a7ac42020cb89ff632df9986e38764f78b553b6d1663",
       "old_length": 71136,
       "new_length": 71136,
       "length_delta": 0,
@@ -32,13 +32,13 @@
       "title": "补充法第227/2026号",
       "topic": "IBS管理与税改实施",
       "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-08-21T03:36:10.984682+00:00",
-      "old_sha256": "18f32a33d8e222c7d519840c7efce124102e7c968a3cb887c6012ed3680863bf",
-      "new_sha256": "d60bbe20bd5614c79b439b238aac88bd2d18e26382c99b1eaeabc3608c0ffe8e",
+      "detected_at": "2026-08-22T03:13:25.338242+00:00",
+      "old_sha256": "d60bbe20bd5614c79b439b238aac88bd2d18e26382c99b1eaeabc3608c0ffe8e",
+      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
       "old_length": 21863,
       "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,22 +399,6 @@  182.  Classificação  Temática -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo -Organização -do -Estado -/ -Organização -Federativa  Administração  Pública  / @@ -424,11 +408,27 @@  Administração  Pública  Direta +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Economia  e  Desenvolvimento  /  Tributos +Organização +do +Estado +/ +Organização +Federativa  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -408,6 +408,17 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa  Organização  do  Estado @@ -418,17 +429,6 @@  /  Controle  Externo -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -46,14 +46,7 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-cgibs-res-6-2026",
-      "title": "CGIBS第6/2026号决议",
-      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
-      "detail": "URLError: <urlopen error timed out>"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
@@ -89,8 +82,7 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12549-annex-2025",

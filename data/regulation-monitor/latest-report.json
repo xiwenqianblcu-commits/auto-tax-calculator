@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-28T11:36:54.164237+00:00",
+  "run_at": "2026-08-29T07:15:15.385424+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 2,
+  "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,13 +14,13 @@
       "title": "巴西税务局2026年税改指引",
       "topic": "CBS与IBS过渡期申报",
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-08-28T11:36:54.164237+00:00",
-      "old_sha256": "7da4fe79b65a14631c3cf7734c044e23dea15fed9ac9cab492e2cc24585a0f10",
-      "new_sha256": "27f9150d7635ea09e7773474dccb3d2a5df57ccf99762265acca2969445a7ef4",
-      "old_length": 17776,
-      "new_length": 17858,
-      "length_delta": 82,
-      "diff_excerpt": "--- previous +++ observed @@ -667,6 +667,12 @@  Fiscais  Cadastros  Fiscalização +Painel +Receita +Perfil +do +Declarante +IRPF  Programas  e  Aplicativos @@ -771,10 +777,4 @@  Órgãos  Estados  Serviços -por -público -alvo -Cidadãos -Empresas -Órgãos -e +po",
+      "detected_at": "2026-08-29T07:15:15.385424+00:00",
+      "old_sha256": "27f9150d7635ea09e7773474dccb3d2a5df57ccf99762265acca2969445a7ef4",
+      "new_sha256": "f14c9d3cd50c1441e55d116db9f0ccd07d0dd7d1ca4ffd876f25f9eae215dcdf",
+      "old_length": 17858,
+      "new_length": 17890,
+      "length_delta": 32,
+      "diff_excerpt": "--- previous +++ observed @@ -53,7 +53,8 @@  assinatura  mei  inss -enem +Desenrola +Brasil  Termos  mais  buscados @@ -193,9 +194,10 @@  procuração  Restringir  procuração -Regularização -de -Impostos +Pagamentos, +Parcelamentos +e +Acordos  Consultar  dívidas  e @@ -774,7 +776,4 @@  serviços  por  Categorias -Órgãos -Estados -Serviços -po +Órgã",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -30,28 +30,21 @@
   "baselines": [],
   "errors": [
     {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
-    },
-    {
       "id": "br-lcp-214-2025",
       "title": "补充法第214/2025号",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detail": "IncompleteRead: IncompleteRead(458752 bytes read)"
+      "detail": "IncompleteRead: IncompleteRead(479638 bytes read)"
     }
   ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
       "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(458752 bytes read)"
+      "detail": "IncompleteRead: IncompleteRead(479638 bytes read)"
     },
     {
       "id": "br-lcp-227-2026",

@@ -1,26 +1,44 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-29T07:15:15.385424+00:00",
+  "run_at": "2026-08-30T05:38:14.072079+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 1,
-  "error_count": 1,
+  "changed_count": 2,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-receita-orientacoes-2026",
+      "id": "br-lcp-214-2025",
       "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-08-29T07:15:15.385424+00:00",
-      "old_sha256": "27f9150d7635ea09e7773474dccb3d2a5df57ccf99762265acca2969445a7ef4",
-      "new_sha256": "f14c9d3cd50c1441e55d116db9f0ccd07d0dd7d1ca4ffd876f25f9eae215dcdf",
-      "old_length": 17858,
-      "new_length": 17890,
-      "length_delta": 32,
-      "diff_excerpt": "--- previous +++ observed @@ -53,7 +53,8 @@  assinatura  mei  inss -enem +Desenrola +Brasil  Termos  mais  buscados @@ -193,9 +194,10 @@  procuração  Restringir  procuração -Regularização -de -Impostos +Pagamentos, +Parcelamentos +e +Acordos  Consultar  dívidas  e @@ -774,7 +776,4 @@  serviços  por  Categorias -Órgãos -Estados -Serviços -po +Órgã",
+      "title": "补充法第214/2025号",
+      "topic": "CBS、IBS与选择性税",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detected_at": "2026-08-30T05:38:14.072079+00:00",
+      "old_sha256": "c2f77f5ab15ac07c7411f1b0d737e95520a52b4459965993228a6b072fe9352c",
+      "new_sha256": "05d4f10741dd2d79700a0da487413e00342e5be6e2aa4e06a7efdef6abfc8251",
+      "old_length": 71136,
+      "new_length": 71640,
+      "length_delta": 504,
+      "diff_excerpt": "",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
+    {
+      "id": "br-lcp-227-2026",
+      "country": "BR",
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-08-30T05:38:14.072079+00:00",
+      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "new_sha256": "d60bbe20bd5614c79b439b238aac88bd2d18e26382c99b1eaeabc3608c0ffe8e",
+      "old_length": 21863,
+      "new_length": 21863,
+      "length_delta": 0,
+      "diff_excerpt": "--- previous +++ observed @@ -408,6 +408,16 @@  Administração  Pública  Direta +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Economia  e  Desenvolvimento @@ -419,16 +429,6 @@  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -28,14 +46,7 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-lcp-214-2025",
-      "title": "补充法第214/2025号",
-      "url": "https://legis.senado.leg.br/norma/40180341",
-      "detail": "IncompleteRead: IncompleteRead(479638 bytes read)"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
@@ -43,12 +54,11 @@
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(479638 bytes read)"
+      "outcome": "changed"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -68,7 +78,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

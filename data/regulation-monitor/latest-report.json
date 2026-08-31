@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-30T05:38:14.072079+00:00",
+  "run_at": "2026-08-31T05:52:59.406609+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 2,
-  "error_count": 0,
+  "error_count": 6,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,12 +14,12 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-08-30T05:38:14.072079+00:00",
-      "old_sha256": "c2f77f5ab15ac07c7411f1b0d737e95520a52b4459965993228a6b072fe9352c",
-      "new_sha256": "05d4f10741dd2d79700a0da487413e00342e5be6e2aa4e06a7efdef6abfc8251",
-      "old_length": 71136,
+      "detected_at": "2026-08-31T05:52:59.406609+00:00",
+      "old_sha256": "05d4f10741dd2d79700a0da487413e00342e5be6e2aa4e06a7efdef6abfc8251",
+      "new_sha256": "1aee2ce44989b5a186d683fb2a3c71ae6bf02ef8a2bb7b9561ba03e43dfa20f1",
+      "old_length": 71640,
       "new_length": 71640,
-      "length_delta": 504,
+      "length_delta": 0,
       "diff_excerpt": "",
       "parser": "html",
       "page_count": null,
@@ -32,13 +32,13 @@
       "title": "补充法第227/2026号",
       "topic": "IBS管理与税改实施",
       "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-08-30T05:38:14.072079+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "d60bbe20bd5614c79b439b238aac88bd2d18e26382c99b1eaeabc3608c0ffe8e",
+      "detected_at": "2026-08-31T05:52:59.406609+00:00",
+      "old_sha256": "d60bbe20bd5614c79b439b238aac88bd2d18e26382c99b1eaeabc3608c0ffe8e",
+      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
       "old_length": 21863,
       "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -408,6 +408,16 @@  Administração  Pública  Direta +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Economia  e  Desenvolvimento @@ -419,16 +429,6 @@  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,16 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -408,16 +418,6 @@  Administração  Pública  Direta -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Economia  e  Desenvolvimento",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -46,11 +46,49 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(262144 bytes read)"
+    },
+    {
+      "id": "br-lei-14902-2024",
+      "title": "第14,902/2024号法律",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12435-2025",
+      "title": "第12,435/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-2025",
+      "title": "第12,549/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-cgibs-res-6-2026",
+      "title": "CGIBS第6/2026号决议",
+      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-annex-2025",
+      "title": "第12,549/2025号法令附件",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(262144 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
@@ -66,15 +104,18 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-receita-orientacoes-2026",
@@ -82,11 +123,13 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

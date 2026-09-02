@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-31T05:52:59.406609+00:00",
+  "run_at": "2026-09-02T04:52:59.112562+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 2,
-  "error_count": 6,
+  "error_count": 4,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,9 +14,9 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-08-31T05:52:59.406609+00:00",
-      "old_sha256": "05d4f10741dd2d79700a0da487413e00342e5be6e2aa4e06a7efdef6abfc8251",
-      "new_sha256": "1aee2ce44989b5a186d683fb2a3c71ae6bf02ef8a2bb7b9561ba03e43dfa20f1",
+      "detected_at": "2026-09-02T04:52:59.112562+00:00",
+      "old_sha256": "1aee2ce44989b5a186d683fb2a3c71ae6bf02ef8a2bb7b9561ba03e43dfa20f1",
+      "new_sha256": "101d8e4de759a229e33445a943d6137a6e3ab192295b9cd12a0226cdd0f65a52",
       "old_length": 71640,
       "new_length": 71640,
       "length_delta": 0,
@@ -27,18 +27,18 @@
       "review_status": "pending"
     },
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-receita-orientacoes-2026",
       "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-08-31T05:52:59.406609+00:00",
-      "old_sha256": "d60bbe20bd5614c79b439b238aac88bd2d18e26382c99b1eaeabc3608c0ffe8e",
-      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
-      "old_length": 21863,
-      "new_length": 21863,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,16 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -408,16 +418,6 @@  Administração  Pública  Direta -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Economia  e  Desenvolvimento",
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-09-02T04:52:59.112562+00:00",
+      "old_sha256": "f14c9d3cd50c1441e55d116db9f0ccd07d0dd7d1ca4ffd876f25f9eae215dcdf",
+      "new_sha256": "5c30a76b670347b4f9f28125f087523a948f704c5d54ed3aa67a2b9b2bc2e7e6",
+      "old_length": 17890,
+      "new_length": 19186,
+      "length_delta": 1296,
+      "diff_excerpt": "--- previous +++ observed @@ -64,213 +64,17 @@  assinatura  mei  Serviços +Catálogo +de +Serviços +da +Receita +Federal  Serviços  de  A  a  Z -Auditorias -Fiscais -Consultar -procedimentos -fiscais -Responder -notificações -Obter -laudo -fiscal -Cadastros -Cidadão -(CPF/CAEPF) -Pessoa -Jurídica -(CNPJ) -Imóvel -Rural -Obra -de -Construção -Civil -Grandes -Contribuintes -Registros -Especiais -Certidões -e -Atestados -Consultar -certidões -emitidas -Emitir -certidão -Anular -certidão -Obter -atestado -fiscal -Comércio -Exterior -Comunicações -Eletrônicas -Compartilhar -dados -fiscais -Consultar -correio -eletrônico -Consultar -editais -e -ADEs -Optar -pelo -DTE -Declarações -e -Escriturações -Consultar -informações -Entregar -escrituração -Entregar -declaração -Entregar -documentos -de -malha -Cancelar -declaração -Obter -cópias -de -declarações -Simular -cálculos -Defesas -e -Recursos -Interpretação -e -Programas -Consultar -normas -da -RFB -Consultar -soluções -da -RFB -Formalizar -consulta -de -NCM -Formalizar -consulta -da -legislação -Isenções -e -Regimes -Especiais -Processos -Digitais -Consultar -processos -Juntar -documentos -a -processo -Validar -e -assinar -documentos -Autorizações -de -Acesso -(Procurações) -Cadastrar -ou -cancelar -procuração -Restringir -procuração -Pagamentos, -Parcelamentos -e -Acordos -Consultar -dívidas -e -pendências -Pagar -impostos -Alterar -pagamentos -Consultar -pagamentos -Parcelar -dívidas -Consultar -parcelamentos -Fazer -acordo -de -transação -Revisar -débitos -e -pendências -Restituições -e -Compensações -Consultar -restituição -Obter -restituição -Compensar -impostos -Conveniados -e -Parceiros -Estados -e -Municípios -Rede -Arrecadadora -Casa -da -Moeda -Outras -Entidades -Reforma -Tributária -Aderir -ao -Piloto -da -Reforma -Tributária -da -Contribuição -sobre -Bens -e -Serviços -(CBS) -Emitir -Nota -Fiscal -de -Serviço -Eletrônica -(NFS-e) -Consultar -Nota -Fiscal -de -Serviço -Eletrônica -(NFS-e)  Assuntos",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -47,12 +47,6 @@
   ],
   "baselines": [],
   "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(262144 bytes read)"
-    },
     {
       "id": "br-lei-14902-2024",
       "title": "第14,902/2024号法律",
@@ -72,12 +66,6 @@
       "detail": "URLError: <urlopen error timed out>"
     },
     {
-      "id": "br-cgibs-res-6-2026",
-      "title": "CGIBS第6/2026号决议",
-      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
-      "detail": "URLError: <urlopen error timed out>"
-    },
-    {
       "id": "br-decreto-12549-annex-2025",
       "title": "第12,549/2025号法令附件",
       "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
@@ -87,8 +75,7 @@
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(262144 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
@@ -96,7 +83,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -119,12 +106,11 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12549-annex-2025",

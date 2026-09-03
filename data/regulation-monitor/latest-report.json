@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-02T04:52:59.112562+00:00",
+  "run_at": "2026-09-03T04:50:36.693186+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
-  "error_count": 4,
+  "changed_count": 3,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,13 +14,31 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-09-02T04:52:59.112562+00:00",
-      "old_sha256": "1aee2ce44989b5a186d683fb2a3c71ae6bf02ef8a2bb7b9561ba03e43dfa20f1",
-      "new_sha256": "101d8e4de759a229e33445a943d6137a6e3ab192295b9cd12a0226cdd0f65a52",
+      "detected_at": "2026-09-03T04:50:36.693186+00:00",
+      "old_sha256": "101d8e4de759a229e33445a943d6137a6e3ab192295b9cd12a0226cdd0f65a52",
+      "new_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
       "old_length": 71640,
-      "new_length": 71640,
-      "length_delta": 0,
+      "new_length": 69568,
+      "length_delta": -2072,
       "diff_excerpt": "",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
+    {
+      "id": "br-lcp-227-2026",
+      "country": "BR",
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-09-03T04:50:36.693186+00:00",
+      "old_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
+      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "old_length": 21863,
+      "new_length": 21863,
+      "length_delta": 0,
+      "diff_excerpt": "--- previous +++ observed @@ -399,16 +399,6 @@  182.  Classificação  Temática -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Administração  Pública  / @@ -429,6 +419,16 @@  /  Organização  Federativa +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -32,13 +50,13 @@
       "title": "巴西税务局2026年税改指引",
       "topic": "CBS与IBS过渡期申报",
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-09-02T04:52:59.112562+00:00",
-      "old_sha256": "f14c9d3cd50c1441e55d116db9f0ccd07d0dd7d1ca4ffd876f25f9eae215dcdf",
-      "new_sha256": "5c30a76b670347b4f9f28125f087523a948f704c5d54ed3aa67a2b9b2bc2e7e6",
-      "old_length": 17890,
+      "detected_at": "2026-09-03T04:50:36.693186+00:00",
+      "old_sha256": "5c30a76b670347b4f9f28125f087523a948f704c5d54ed3aa67a2b9b2bc2e7e6",
+      "new_sha256": "0cda4af3e1446ab1b32da6ba146ac13ff2b31da8c7e73cbc01c4cc0cff1a9a3a",
+      "old_length": 19186,
       "new_length": 19186,
-      "length_delta": 1296,
-      "diff_excerpt": "--- previous +++ observed @@ -64,213 +64,17 @@  assinatura  mei  Serviços +Catálogo +de +Serviços +da +Receita +Federal  Serviços  de  A  a  Z -Auditorias -Fiscais -Consultar -procedimentos -fiscais -Responder -notificações -Obter -laudo -fiscal -Cadastros -Cidadão -(CPF/CAEPF) -Pessoa -Jurídica -(CNPJ) -Imóvel -Rural -Obra -de -Construção -Civil -Grandes -Contribuintes -Registros -Especiais -Certidões -e -Atestados -Consultar -certidões -emitidas -Emitir -certidão -Anular -certidão -Obter -atestado -fiscal -Comércio -Exterior -Comunicações -Eletrônicas -Compartilhar -dados -fiscais -Consultar -correio -eletrônico -Consultar -editais -e -ADEs -Optar -pelo -DTE -Declarações -e -Escriturações -Consultar -informações -Entregar -escrituração -Entregar -declaração -Entregar -documentos -de -malha -Cancelar -declaração -Obter -cópias -de -declarações -Simular -cálculos -Defesas -e -Recursos -Interpretação -e -Programas -Consultar -normas -da -RFB -Consultar -soluções -da -RFB -Formalizar -consulta -de -NCM -Formalizar -consulta -da -legislação -Isenções -e -Regimes -Especiais -Processos -Digitais -Consultar -processos -Juntar -documentos -a -processo -Validar -e -assinar -documentos -Autorizações -de -Acesso -(Procurações) -Cadastrar -ou -cancelar -procuração -Restringir -procuração -Pagamentos, -Parcelamentos -e -Acordos -Consultar -dívidas -e -pendências -Pagar -impostos -Alterar -pagamentos -Consultar -pagamentos -Parcelar -dívidas -Consultar -parcelamentos -Fazer -acordo -de -transação -Revisar -débitos -e -pendências -Restituições -e -Compensações -Consultar -restituição -Obter -restituição -Compensar -impostos -Conveniados -e -Parceiros -Estados -e -Municípios -Rede -Arrecadadora -Casa -da -Moeda -Outras -Entidades -Reforma -Tributária -Aderir -ao -Piloto -da -Reforma -Tributária -da -Contribuição -sobre -Bens -e -Serviços -(CBS) -Emitir -Nota -Fiscal -de -Serviço -Eletrônica -(NFS-e) -Consultar -Nota -Fiscal -de -Serviço -Eletrônica -(NFS-e)  Assuntos",
+      "length_delta": 0,
+      "diff_excerpt": "--- previous +++ observed @@ -63,18 +63,6 @@  renda  assinatura  mei -Serviços -Catálogo -de -Serviços -da -Receita -Federal -Serviços -de -A -a -Z  Assuntos  Notícias  Todas @@ -793,4 +781,12 @@  Restituição  e  Compensação -Receitan +Receitanet +Validador +de +arquivos +Publicações +Acordos +de +Cooperação +Apresent",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -46,32 +64,7 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-lei-14902-2024",
-      "title": "第14,902/2024号法律",
-      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
-      "detail": "URLError: <urlopen error timed out>"
-    },
-    {
-      "id": "br-decreto-12435-2025",
-      "title": "第12,435/2025号法令",
-      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
-      "detail": "URLError: <urlopen error timed out>"
-    },
-    {
-      "id": "br-decreto-12549-2025",
-      "title": "第12,549/2025号法令",
-      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
-      "detail": "URLError: <urlopen error timed out>"
-    },
-    {
-      "id": "br-decreto-12549-annex-2025",
-      "title": "第12,549/2025号法令附件",
-      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
-      "detail": "URLError: <urlopen error timed out>"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
@@ -83,7 +76,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -91,18 +84,15 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-receita-orientacoes-2026",
@@ -114,8 +104,7 @@
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

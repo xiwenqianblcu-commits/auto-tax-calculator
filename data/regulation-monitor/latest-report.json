@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-03T04:50:36.693186+00:00",
+  "run_at": "2026-09-04T04:53:35.878607+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 3,
-  "error_count": 0,
+  "changed_count": 2,
+  "error_count": 2,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,31 +14,13 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-09-03T04:50:36.693186+00:00",
-      "old_sha256": "101d8e4de759a229e33445a943d6137a6e3ab192295b9cd12a0226cdd0f65a52",
-      "new_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
-      "old_length": 71640,
+      "detected_at": "2026-09-04T04:53:35.878607+00:00",
+      "old_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
+      "new_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
+      "old_length": 69568,
       "new_length": 69568,
-      "length_delta": -2072,
-      "diff_excerpt": "",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-lcp-227-2026",
-      "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-09-03T04:50:36.693186+00:00",
-      "old_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
-      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "old_length": 21863,
-      "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,16 +399,6 @@  182.  Classificação  Temática -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Administração  Pública  / @@ -429,6 +419,16 @@  /  Organização  Federativa +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Indexação  Clique  para",
+      "diff_excerpt": "",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -50,13 +32,13 @@
       "title": "巴西税务局2026年税改指引",
       "topic": "CBS与IBS过渡期申报",
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-09-03T04:50:36.693186+00:00",
-      "old_sha256": "5c30a76b670347b4f9f28125f087523a948f704c5d54ed3aa67a2b9b2bc2e7e6",
-      "new_sha256": "0cda4af3e1446ab1b32da6ba146ac13ff2b31da8c7e73cbc01c4cc0cff1a9a3a",
+      "detected_at": "2026-09-04T04:53:35.878607+00:00",
+      "old_sha256": "0cda4af3e1446ab1b32da6ba146ac13ff2b31da8c7e73cbc01c4cc0cff1a9a3a",
+      "new_sha256": "18e2a3d60f3d54b878cceecf405688b882c5221075456719cf2da993586e6700",
       "old_length": 19186,
-      "new_length": 19186,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -63,18 +63,6 @@  renda  assinatura  mei -Serviços -Catálogo -de -Serviços -da -Receita -Federal -Serviços -de -A -a -Z  Assuntos  Notícias  Todas @@ -793,4 +781,12 @@  Restituição  e  Compensação -Receitan +Receitanet +Validador +de +arquivos +Publicações +Acordos +de +Cooperação +Apresent",
+      "new_length": 19212,
+      "length_delta": 26,
+      "diff_excerpt": "--- previous +++ observed @@ -620,6 +620,9 @@  Digitais  Transação  Tributária +CAFIR +e +CNIR  Dados  Abertos  Sanções @@ -788,5 +791,4 @@  Publicações  Acordos  de -Cooperação -Apresent +Cooper",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -64,11 +46,25 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
+    },
+    {
+      "id": "br-cgibs-res-6-2026",
+      "title": "CGIBS第6/2026号决议",
+      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
@@ -76,7 +72,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -100,7 +96,8 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",

@@ -1,44 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-04T04:53:35.878607+00:00",
+  "run_at": "2026-09-05T04:46:42.067766+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
+  "changed_count": 1,
   "error_count": 2,
   "pdf_source_count": 2,
   "changes": [
-    {
-      "id": "br-lcp-214-2025",
-      "country": "BR",
-      "title": "补充法第214/2025号",
-      "topic": "CBS、IBS与选择性税",
-      "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-09-04T04:53:35.878607+00:00",
-      "old_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
-      "new_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
-      "old_length": 69568,
-      "new_length": 69568,
-      "length_delta": 0,
-      "diff_excerpt": "",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
     {
       "id": "br-receita-orientacoes-2026",
       "country": "BR",
       "title": "巴西税务局2026年税改指引",
       "topic": "CBS与IBS过渡期申报",
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-09-04T04:53:35.878607+00:00",
-      "old_sha256": "0cda4af3e1446ab1b32da6ba146ac13ff2b31da8c7e73cbc01c4cc0cff1a9a3a",
-      "new_sha256": "18e2a3d60f3d54b878cceecf405688b882c5221075456719cf2da993586e6700",
-      "old_length": 19186,
+      "detected_at": "2026-09-05T04:46:42.067766+00:00",
+      "old_sha256": "18e2a3d60f3d54b878cceecf405688b882c5221075456719cf2da993586e6700",
+      "new_sha256": "cc37ab41d8f7f0b1456af166c0d1d83daf098ed6e4e3306d99959b815fbb1a9d",
+      "old_length": 19212,
       "new_length": 19212,
-      "length_delta": 26,
-      "diff_excerpt": "--- previous +++ observed @@ -620,6 +620,9 @@  Digitais  Transação  Tributária +CAFIR +e +CNIR  Dados  Abertos  Sanções @@ -788,5 +791,4 @@  Publicações  Acordos  de -Cooperação -Apresent +Cooper",
+      "length_delta": 0,
+      "diff_excerpt": "--- previous +++ observed @@ -579,6 +579,9 @@  Dados  Concursos  Públicos +CAFIR +e +CNIR  Construção  Civil  Declaração @@ -620,9 +623,6 @@  Digitais  Transação  Tributária -CAFIR -e -CNIR  Dados  Abertos  Sanções",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -51,7 +33,7 @@
       "id": "br-ec-132-2023",
       "title": "宪法修正案第132/2023号",
       "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-cgibs-res-6-2026",
@@ -64,11 +46,11 @@
     {
       "id": "br-ec-132-2023",
       "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-227-2026",

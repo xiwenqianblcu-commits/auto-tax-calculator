@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-13T05:08:27.407742+00:00",
+  "run_at": "2026-09-14T05:15:40.464839+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
-  "error_count": 1,
+  "changed_count": 1,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,9 +14,9 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-09-13T05:08:27.407742+00:00",
-      "old_sha256": "c8a74a225008bfdc2801a1f728303dc5faebf5bab3030ffff6563f763d505cd2",
-      "new_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
+      "detected_at": "2026-09-14T05:15:40.464839+00:00",
+      "old_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
+      "new_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
       "old_length": 69568,
       "new_length": 69568,
       "length_delta": 0,
@@ -25,40 +25,14 @@
       "page_count": null,
       "needs_ocr": false,
       "review_status": "pending"
-    },
-    {
-      "id": "br-receita-orientacoes-2026",
-      "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-09-13T05:08:27.407742+00:00",
-      "old_sha256": "cc37ab41d8f7f0b1456af166c0d1d83daf098ed6e4e3306d99959b815fbb1a9d",
-      "new_sha256": "0cceed4475923c785529c79f7f9e8de8ab7e65a33d7d39a8a802bb9bdbb0b433",
-      "old_length": 19212,
-      "new_length": 19156,
-      "length_delta": -56,
-      "diff_excerpt": "--- previous +++ observed @@ -760,13 +760,8 @@  Benefícios  Fiscais  Cadastros +Conformidade  Fiscalização -Painel -Receita -Perfil -do -Declarante -IRPF  Programas  e  Aplicativos @@ -791,4 +786,6 @@  Publicações  Acordos  de -Cooper +Cooperação +Apresentações +Documento",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
@@ -86,7 +60,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

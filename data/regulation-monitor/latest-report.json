@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-14T05:15:40.464839+00:00",
+  "run_at": "2026-09-17T05:05:58.245520+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
@@ -9,18 +9,18 @@
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-214-2025",
+      "id": "br-receita-orientacoes-2026",
       "country": "BR",
-      "title": "补充法第214/2025号",
-      "topic": "CBS、IBS与选择性税",
-      "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-09-14T05:15:40.464839+00:00",
-      "old_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
-      "new_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
-      "old_length": 69568,
-      "new_length": 69568,
-      "length_delta": 0,
-      "diff_excerpt": "",
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-09-17T05:05:58.245520+00:00",
+      "old_sha256": "0cceed4475923c785529c79f7f9e8de8ab7e65a33d7d39a8a802bb9bdbb0b433",
+      "new_sha256": "defd46cf3d691b0fda2cef57a9eaa46c930edc0920ecc8a56d42ac042f4c8499",
+      "old_length": 19156,
+      "new_length": 19128,
+      "length_delta": -28,
+      "diff_excerpt": "--- previous +++ observed @@ -623,6 +623,7 @@  Digitais  Transação  Tributária +Sped  Dados  Abertos  Sanções @@ -737,9 +738,6 @@  Comércio  Exterior  Declarações -Impostos -e -Dívidas  Regimes  Especiais  Outros @@ -788,4 +786,6 @@  de  Cooperação  Apresentações -Documento +Documentos +Técnicos +Est",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -36,7 +36,7 @@
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-227-2026",
@@ -60,7 +60,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",

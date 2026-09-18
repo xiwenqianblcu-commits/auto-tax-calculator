@@ -1,26 +1,44 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-17T05:05:58.245520+00:00",
+  "run_at": "2026-09-18T04:58:19.352837+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 1,
-  "error_count": 0,
+  "changed_count": 2,
+  "error_count": 5,
   "pdf_source_count": 2,
   "changes": [
+    {
+      "id": "br-lcp-214-2025",
+      "country": "BR",
+      "title": "补充法第214/2025号",
+      "topic": "CBS、IBS与选择性税",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detected_at": "2026-09-18T04:58:19.352837+00:00",
+      "old_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
+      "new_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
+      "old_length": 69568,
+      "new_length": 69568,
+      "length_delta": 0,
+      "diff_excerpt": "",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
     {
       "id": "br-receita-orientacoes-2026",
       "country": "BR",
       "title": "巴西税务局2026年税改指引",
       "topic": "CBS与IBS过渡期申报",
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-09-17T05:05:58.245520+00:00",
-      "old_sha256": "0cceed4475923c785529c79f7f9e8de8ab7e65a33d7d39a8a802bb9bdbb0b433",
-      "new_sha256": "defd46cf3d691b0fda2cef57a9eaa46c930edc0920ecc8a56d42ac042f4c8499",
-      "old_length": 19156,
-      "new_length": 19128,
-      "length_delta": -28,
-      "diff_excerpt": "--- previous +++ observed @@ -623,6 +623,7 @@  Digitais  Transação  Tributária +Sped  Dados  Abertos  Sanções @@ -737,9 +738,6 @@  Comércio  Exterior  Declarações -Impostos -e -Dívidas  Regimes  Especiais  Outros @@ -788,4 +786,6 @@  de  Cooperação  Apresentações -Documento +Documentos +Técnicos +Est",
+      "detected_at": "2026-09-18T04:58:19.352837+00:00",
+      "old_sha256": "defd46cf3d691b0fda2cef57a9eaa46c930edc0920ecc8a56d42ac042f4c8499",
+      "new_sha256": "e47518b3ca1619df06c663164e50b83a6ebdf88ef5af8788a9a78004091e99c2",
+      "old_length": 19128,
+      "new_length": 19578,
+      "length_delta": 450,
+      "diff_excerpt": "--- previous +++ observed @@ -47,21 +47,20 @@  Termos  mais  buscados -imposto -de -renda  assinatura -mei -inss  Desenrola  Brasil +mei +imposto +de +renda +inss  Termos  mais  buscados -imposto -de -renda  assinatura +Desenrola +Brasil  mei  Assuntos  Notícias",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -28,7 +46,38 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-lei-14902-2024",
+      "title": "第14,902/2024号法律",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12435-2025",
+      "title": "第12,435/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-2025",
+      "title": "第12,549/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-cgibs-res-6-2026",
+      "title": "CGIBS第6/2026号决议",
+      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "br-decreto-12549-annex-2025",
+      "title": "第12,549/2025号法令附件",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
@@ -36,7 +85,7 @@
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-lcp-227-2026",
@@ -48,15 +97,18 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-receita-orientacoes-2026",
@@ -64,11 +116,13 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

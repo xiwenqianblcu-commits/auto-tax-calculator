@@ -1,44 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-19T04:51:13.447277+00:00",
+  "run_at": "2026-09-20T05:09:50.808223+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
-  "error_count": 1,
+  "changed_count": 1,
+  "error_count": 2,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-214-2025",
+      "id": "br-lcp-227-2026",
       "country": "BR",
-      "title": "补充法第214/2025号",
-      "topic": "CBS、IBS与选择性税",
-      "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-09-19T04:51:13.447277+00:00",
-      "old_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
-      "new_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
-      "old_length": 69568,
-      "new_length": 69568,
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-09-20T05:09:50.808223+00:00",
+      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "new_sha256": "b5445ff271eb6f103ffd1f5630d9f9aea213f10577c58b9c342ce232b45835f2",
+      "old_length": 21863,
+      "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-receita-orientacoes-2026",
-      "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-09-19T04:51:13.447277+00:00",
-      "old_sha256": "e47518b3ca1619df06c663164e50b83a6ebdf88ef5af8788a9a78004091e99c2",
-      "new_sha256": "d769580380140ae2bb8336c3921763de423d92eda0a7ec50ef3e3e7103dde3ba",
-      "old_length": 19578,
-      "new_length": 3365,
-      "length_delta": -16213,
-      "diff_excerpt": "--- previous +++ observed @@ -1,10 +1,3 @@ -Orientações -da -Reforma -Tributária -para -2026 -—  Receita  Federal  Ir @@ -62,729 +55,439 @@  Desenrola  Brasil  mei -Assuntos -Notícias -Todas -as -notícias -Arrecadação -e -Cobrança -Cidadania -Fiscal -Combate -ao -contrabando +Curso +Reforma +Tributária +do +Consumo +Estatísticas +Reforma +Tributária +Travellers +Guide +Guia +do +Viajante +COP30 +(versão +desktop) +Guia +do +Viajante +COP30 +(versão +mobile) +Concurso +GOV.BR +Serviços +Buscar +serviços +por +Categorias +Órgãos +Estados +Serviços +por +público +alvo +Cidadãos +Empresas +Órgãos +e +Entidades +Públicas +Demais +segmentos +(ONGs, +organizações +sociais, +etc) +Servidor +Público +Temas +em +Destaque +Orçamento +Nacional +Redes +de +Atendimento +da +Administração +Pública +Federal +Proteção +de +Dados +Pessoais +Serviços +para +Imigrantes +Política +e +Orçamento +Educacionais +Educação +Profissional +e +Tecnológica +Educação +Profissional +para +Jovens +e +Adultos +Trabalho +e +Emprego +Serviços +para +Pessoas +com +Deficiência  Combate  à -corrupção -Combate -à -sonegação -Institucional -Serviços -Tributação -• -Acordos, -Pagamentos -e -Parcelamentos -Consultar -dívidas -e -pendências -Pagar -impostos -Alterar -pagamentos -Consultar -pagamentos -Parcelar -dívidas -Consultar -parcelamentos -Fazer -acordo -de -transação -Revisar -débitos -e -pendências -• -Aduana -e -Comércio -Exterior -Acessar -o -portal -Aduana -e -Comércio -Exterior -Acessar -sistemas -aduaneiros -AFRMM -- -Adicional +Discriminação +Racial +Política +de +Proteção +Social +Política +para +Mulheres +Saúde +Reprodutiva +da +Mulher +Cuidados +na +Primeira +Infância +Habitação +Popular +Controle +de +Poluição +e +Resíduos +Sólidos +Notícias +Galeria +de +Aplicativos +Acompanhe +o +Planalto +Navegação +Acessibilidade +Mapa +do +Site +Termo +de +Uso +e +Aviso +de +Privacidade +Consultar +minhas",
+      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,27 @@  182.  Classificação  Temática +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -408,27 +429,6 @@  Administração  Pública  Direta -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -52,6 +34,12 @@
       "title": "宪法修正案第132/2023号",
       "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
       "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+    },
+    {
+      "id": "br-lcp-214-2025",
+      "title": "补充法第214/2025号",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detail": "IncompleteRead: IncompleteRead(470116 bytes read)"
     }
   ],
   "results": [
@@ -62,11 +50,12 @@
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "changed"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(470116 bytes read)"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -86,7 +75,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

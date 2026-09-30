@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-29T05:58:21.122608+00:00",
+  "run_at": "2026-09-30T05:48:08.239615+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 4,
+  "error_count": 5,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-receita-orientacoes-2026",
       "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-09-29T05:58:21.122608+00:00",
-      "old_sha256": "d60bbe20bd5614c79b439b238aac88bd2d18e26382c99b1eaeabc3608c0ffe8e",
-      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "old_length": 21863,
-      "new_length": 21863,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -408,6 +408,17 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa  Organização  do  Estado @@ -418,17 +429,6 @@  /  Controle  Externo -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa  Indexação  Clique  para",
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-09-30T05:48:08.239615+00:00",
+      "old_sha256": "20c44e206d63346f350d83c8ed2c83cf5c915f50961e2d34ddd39f9b306f4918",
+      "new_sha256": "f011773b177cb2cedae737adcd39f26f693237a7985776e2093d71273d741e32",
+      "old_length": 3365,
+      "new_length": 3497,
+      "length_delta": 132,
+      "diff_excerpt": "--- previous +++ observed @@ -78,6 +78,16 @@  (versão  mobile)  Concurso +IV +Congresso +de +Direito +Tributário +e +Aduaneiro +da +Receita +Federal  GOV.BR  Serviços  Buscar @@ -454,6 +464,16 @@  (versão  mobile)  Concurso +IV +Congresso +de +Direito +Tributário +e +Aduaneiro +da +Receita +Federal  Redefinir  Cookies  Redes",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -48,6 +48,12 @@
       "detail": "URLError: <urlopen error timed out>"
     },
     {
+      "id": "br-cgibs-res-6-2026",
+      "title": "CGIBS第6/2026号决议",
+      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    },
+    {
       "id": "br-decreto-12549-annex-2025",
       "title": "第12,549/2025号法令附件",
       "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
@@ -65,7 +71,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -88,11 +94,12 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",

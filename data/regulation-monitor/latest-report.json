@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-01T06:18:58.636415+00:00",
+  "run_at": "2026-10-02T05:58:35.146231+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
@@ -14,9 +14,9 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-10-01T06:18:58.636415+00:00",
-      "old_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
-      "new_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
+      "detected_at": "2026-10-02T05:58:35.146231+00:00",
+      "old_sha256": "1de49a26a410ebf63aa964dd8c537346a53ee931810e09dd3ae7067a4c30c5be",
+      "new_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
       "old_length": 69568,
       "new_length": 69568,
       "length_delta": 0,
@@ -27,18 +27,18 @@
       "review_status": "pending"
     },
     {
-      "id": "br-receita-orientacoes-2026",
+      "id": "br-lcp-227-2026",
       "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-10-01T06:18:58.636415+00:00",
-      "old_sha256": "f011773b177cb2cedae737adcd39f26f693237a7985776e2093d71273d741e32",
-      "new_sha256": "20c44e206d63346f350d83c8ed2c83cf5c915f50961e2d34ddd39f9b306f4918",
-      "old_length": 3497,
-      "new_length": 3365,
-      "length_delta": -132,
-      "diff_excerpt": "--- previous +++ observed @@ -78,16 +78,6 @@  (versão  mobile)  Concurso -IV -Congresso -de -Direito -Tributário -e -Aduaneiro -da -Receita -Federal  GOV.BR  Serviços  Buscar @@ -464,16 +454,6 @@  (versão  mobile)  Concurso -IV -Congresso -de -Direito -Tributário -e -Aduaneiro -da -Receita -Federal  Redefinir  Cookies  Redes",
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-10-02T05:58:35.146231+00:00",
+      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "new_sha256": "b5445ff271eb6f103ffd1f5630d9f9aea213f10577c58b9c342ce232b45835f2",
+      "old_length": 21863,
+      "new_length": 21863,
+      "length_delta": 0,
+      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,27 @@  182.  Classificação  Temática +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -408,27 +429,6 @@  Administração  Pública  Direta -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -58,7 +58,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -78,7 +78,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

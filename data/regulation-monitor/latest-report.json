@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-13T06:57:17.270288+00:00",
+  "run_at": "2026-10-14T05:10:10.344671+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 1,
-  "error_count": 0,
+  "changed_count": 2,
+  "error_count": 2,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,13 +14,31 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-10-13T06:57:17.270288+00:00",
-      "old_sha256": "b823efbd49bc944eb3204aec61eda38a66e07a535364da33ab6b0c0000a5d7b8",
-      "new_sha256": "538f70fe0545cc1af40c6a17e5e01722a50dae2213c2d7bfcb840e7bd0eee9d3",
+      "detected_at": "2026-10-14T05:10:10.344671+00:00",
+      "old_sha256": "538f70fe0545cc1af40c6a17e5e01722a50dae2213c2d7bfcb840e7bd0eee9d3",
+      "new_sha256": "52511d02fc89db4f61828776d595879f533f37da6c851569b4d00b6b35d6cf29",
       "old_length": 69568,
-      "new_length": 69568,
-      "length_delta": 0,
+      "new_length": 70003,
+      "length_delta": 435,
       "diff_excerpt": "",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
+    {
+      "id": "br-decreto-12955-2026",
+      "country": "BR",
+      "title": "第12,955/2026号法令",
+      "topic": "CBS实施细则",
+      "url": "https://legis.senado.leg.br/norma/43106091",
+      "detected_at": "2026-10-14T05:10:10.344671+00:00",
+      "old_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
+      "new_sha256": "39c7eaa74b20594380e3b533d428221043b993f1d65fb0c34555ce5cc3961c64",
+      "old_length": 8922,
+      "new_length": 9587,
+      "length_delta": 665,
+      "diff_excerpt": "--- previous +++ observed @@ -825,6 +825,50 @@  g  -  Acréscimo +Decreto +nº +13.133 +de +09/10/2026 +Declaração +de +Alteração +Permanente +Publicação +Original +[Diário +Oficial +da +União +- +Edição +Extra +de +09/10/2026 +- +nº +192-B] +(p. +1, +col. +1) +Art. +471, +caput, +Inciso +3 +- +Alteração +Art. +476, +caput +- +Alteração +Art. +477, +caput +- +Revogação  Normas  alteradas  ou @@ -922,43 +966,4 @@  9.718  de  27/11/1998 -Declaração -de -Legislação -Correlata -Lei -nº -9.826 -de -23/08/1999 -Declaração -de -Legislação -Correlata -Art. -1 -- -Dispositivo -Correlato -Lei -nº -10.147 -de -21/12/2000 -Declaração -de -Legislação -Correlata -Art. -1, -caput, -Inciso -1 -- -Dispositivo -Correlato -Lei -nº -10.188 -de -12/02/2001 +Decl",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -28,11 +46,25 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
+    },
+    {
+      "id": "br-cgibs-res-6-2026",
+      "title": "CGIBS第6/2026号决议",
+      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
+      "detail": "URLError: <urlopen error timed out>"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
@@ -44,7 +76,7 @@
     },
     {
       "id": "br-decreto-12955-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-lei-14902-2024",
@@ -64,7 +96,8 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "URLError: <urlopen error timed out>"
     },
     {
       "id": "br-decreto-12549-annex-2025",

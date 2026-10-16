@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-14T05:10:10.344671+00:00",
+  "run_at": "2026-10-16T04:47:58.658617+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
-  "error_count": 2,
+  "changed_count": 3,
+  "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,12 +14,12 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-10-14T05:10:10.344671+00:00",
-      "old_sha256": "538f70fe0545cc1af40c6a17e5e01722a50dae2213c2d7bfcb840e7bd0eee9d3",
-      "new_sha256": "52511d02fc89db4f61828776d595879f533f37da6c851569b4d00b6b35d6cf29",
-      "old_length": 69568,
+      "detected_at": "2026-10-16T04:47:58.658617+00:00",
+      "old_sha256": "52511d02fc89db4f61828776d595879f533f37da6c851569b4d00b6b35d6cf29",
+      "new_sha256": "cb20843e8158e0086bb0e9c75b83215c2d926f90cbf38f360f9a4ee4b2e48eb7",
+      "old_length": 70003,
       "new_length": 70003,
-      "length_delta": 435,
+      "length_delta": 0,
       "diff_excerpt": "",
       "parser": "html",
       "page_count": null,
@@ -27,18 +27,36 @@
       "review_status": "pending"
     },
     {
-      "id": "br-decreto-12955-2026",
+      "id": "br-lcp-227-2026",
       "country": "BR",
-      "title": "第12,955/2026号法令",
-      "topic": "CBS实施细则",
-      "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-10-14T05:10:10.344671+00:00",
-      "old_sha256": "0ec009077c523ae00466f605884e306d797b7cd747ac04533fdc79fbfcd2d98d",
-      "new_sha256": "39c7eaa74b20594380e3b533d428221043b993f1d65fb0c34555ce5cc3961c64",
-      "old_length": 8922,
-      "new_length": 9587,
-      "length_delta": 665,
-      "diff_excerpt": "--- previous +++ observed @@ -825,6 +825,50 @@  g  -  Acréscimo +Decreto +nº +13.133 +de +09/10/2026 +Declaração +de +Alteração +Permanente +Publicação +Original +[Diário +Oficial +da +União +- +Edição +Extra +de +09/10/2026 +- +nº +192-B] +(p. +1, +col. +1) +Art. +471, +caput, +Inciso +3 +- +Alteração +Art. +476, +caput +- +Alteração +Art. +477, +caput +- +Revogação  Normas  alteradas  ou @@ -922,43 +966,4 @@  9.718  de  27/11/1998 -Declaração -de -Legislação -Correlata -Lei -nº -9.826 -de -23/08/1999 -Declaração -de -Legislação -Correlata -Art. -1 -- -Dispositivo -Correlato -Lei -nº -10.147 -de -21/12/2000 -Declaração -de -Legislação -Correlata -Art. -1, -caput, -Inciso -1 -- -Dispositivo -Correlato -Lei -nº -10.188 -de -12/02/2001 +Decl",
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-10-16T04:47:58.658617+00:00",
+      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "new_sha256": "93a65600fea4a02a74fd55b5e04d9c447bd12d66846ce515cd4470d902394290",
+      "old_length": 21863,
+      "new_length": 21863,
+      "length_delta": 0,
+      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,17 @@  182.  Classificação  Temática +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa  Administração  Pública  / @@ -408,17 +419,6 @@  Administração  Pública  Direta -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa  Organização  do  Estado",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
+    {
+      "id": "br-receita-orientacoes-2026",
+      "country": "BR",
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-10-16T04:47:58.658617+00:00",
+      "old_sha256": "20c44e206d63346f350d83c8ed2c83cf5c915f50961e2d34ddd39f9b306f4918",
+      "new_sha256": "eea10d8dd7129eda843a01c90e5148d00c36b44a3f6d8b759c13ec054105cccb",
+      "old_length": 3365,
+      "new_length": 3364,
+      "length_delta": -1,
+      "diff_excerpt": "--- previous +++ observed @@ -47,7 +47,7 @@  imposto  de  renda -inss +cnh  Termos  mais  buscados @@ -351,14 +351,14 @@  CPF  5  Consultar +CNPJ +6 +Consultar  restituição  do  imposto  de  renda -6 -Consultar -CNPJ  Serviços  em  destaque",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -52,12 +70,6 @@
       "title": "宪法修正案第132/2023号",
       "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
       "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
-    },
-    {
-      "id": "br-cgibs-res-6-2026",
-      "title": "CGIBS第6/2026号决议",
-      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
-      "detail": "URLError: <urlopen error timed out>"
     }
   ],
   "results": [
@@ -72,11 +84,11 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lei-14902-2024",
@@ -92,12 +104,11 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12549-annex-2025",

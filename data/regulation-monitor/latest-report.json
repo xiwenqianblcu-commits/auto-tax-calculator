@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-18T04:53:55.926280+00:00",
+  "run_at": "2026-10-19T05:02:53.837073+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 1,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-lcp-214-2025",
       "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-10-18T04:53:55.926280+00:00",
-      "old_sha256": "93a65600fea4a02a74fd55b5e04d9c447bd12d66846ce515cd4470d902394290",
-      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "old_length": 21863,
-      "new_length": 21863,
+      "title": "补充法第214/2025号",
+      "topic": "CBS、IBS与选择性税",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detected_at": "2026-10-19T05:02:53.837073+00:00",
+      "old_sha256": "cb20843e8158e0086bb0e9c75b83215c2d926f90cbf38f360f9a4ee4b2e48eb7",
+      "new_sha256": "52511d02fc89db4f61828776d595879f533f37da6c851569b4d00b6b35d6cf29",
+      "old_length": 70003,
+      "new_length": 70003,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,17 +399,6 @@  182.  Classificação  Temática -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa  Administração  Pública  / @@ -419,6 +408,17 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa  Organização  do  Estado",
+      "diff_excerpt": "",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -28,27 +28,19 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(163840 bytes read)"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(163840 bytes read)"
-    },
-    {
-      "id": "br-lcp-214-2025",
       "outcome": "unchanged"
     },
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-lcp-214-2025",
       "outcome": "changed"
+    },
+    {
+      "id": "br-lcp-227-2026",
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",

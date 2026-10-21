@@ -1,44 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-20T05:05:39.407589+00:00",
+  "run_at": "2026-10-21T05:06:58.440078+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 4,
-  "error_count": 0,
+  "changed_count": 2,
+  "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
-    {
-      "id": "br-lcp-214-2025",
-      "country": "BR",
-      "title": "补充法第214/2025号",
-      "topic": "CBS、IBS与选择性税",
-      "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-10-20T05:05:39.407589+00:00",
-      "old_sha256": "52511d02fc89db4f61828776d595879f533f37da6c851569b4d00b6b35d6cf29",
-      "new_sha256": "cb20843e8158e0086bb0e9c75b83215c2d926f90cbf38f360f9a4ee4b2e48eb7",
-      "old_length": 70003,
-      "new_length": 70003,
-      "length_delta": 0,
-      "diff_excerpt": "",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
     {
       "id": "br-lcp-227-2026",
       "country": "BR",
       "title": "补充法第227/2026号",
       "topic": "IBS管理与税改实施",
       "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-10-20T05:05:39.407589+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "f7c801fd97b453029150c0186961efbebb75d05462028c8432c5d8fc7f1b2f3d",
+      "detected_at": "2026-10-21T05:06:58.440078+00:00",
+      "old_sha256": "f7c801fd97b453029150c0186961efbebb75d05462028c8432c5d8fc7f1b2f3d",
+      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
       "old_length": 21863,
       "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,11 @@  182.  Classificação  Temática +Economia +e +Desenvolvimento +/ +Tributos  Administração  Pública  / @@ -408,11 +413,6 @@  Administração  Pública  Direta -Economia -e -Desenvolvimento -/ -Tributos  Organização  do  Estado",
+      "diff_excerpt": "--- previous +++ observed @@ -399,11 +399,6 @@  182.  Classificação  Temática -Economia -e -Desenvolvimento -/ -Tributos  Administração  Pública  / @@ -413,6 +408,11 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos  Organização  do  Estado",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -50,31 +32,13 @@
       "title": "第12,955/2026号法令",
       "topic": "CBS实施细则",
       "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-10-20T05:05:39.407589+00:00",
-      "old_sha256": "39c7eaa74b20594380e3b533d428221043b993f1d65fb0c34555ce5cc3961c64",
-      "new_sha256": "57221810b2247f59518c0010f586caa38c89003e4acd732720e4b7da7c5d1d1f",
+      "detected_at": "2026-10-21T05:06:58.440078+00:00",
+      "old_sha256": "57221810b2247f59518c0010f586caa38c89003e4acd732720e4b7da7c5d1d1f",
+      "new_sha256": "39c7eaa74b20594380e3b533d428221043b993f1d65fb0c34555ce5cc3961c64",
       "old_length": 9587,
       "new_length": 9587,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Contribuição -Social +Administração +Tributária  Economia  e  Desenvolvimento  /  Tributos  / -Administração -Tributária +Contribuição +Social  Indexação  Clique  para",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-receita-orientacoes-2026",
-      "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-10-20T05:05:39.407589+00:00",
-      "old_sha256": "eea10d8dd7129eda843a01c90e5148d00c36b44a3f6d8b759c13ec054105cccb",
-      "new_sha256": "0e56d3f495c9272157d310b84bc1f10f9f0849195016c35515954bda3d27e822",
-      "old_length": 3364,
-      "new_length": 3369,
-      "length_delta": 5,
-      "diff_excerpt": "--- previous +++ observed @@ -353,12 +353,13 @@  Consultar  CNPJ  6 -Consultar -restituição -do -imposto -de -renda +Obter +passaporte +e +outros +documentos +de +viagem  Serviços  em  destaque",
+      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Administração -Tributária +Contribuição +Social  Economia  e  Desenvolvimento  /  Tributos  / -Contribuição -Social +Administração +Tributária  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -82,15 +46,23 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-227-2026",
@@ -114,7 +86,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

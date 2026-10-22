@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-21T05:06:58.440078+00:00",
+  "run_at": "2026-10-22T05:10:07.115759+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
-  "error_count": 1,
+  "changed_count": 1,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,31 +14,13 @@
       "title": "补充法第227/2026号",
       "topic": "IBS管理与税改实施",
       "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-10-21T05:06:58.440078+00:00",
-      "old_sha256": "f7c801fd97b453029150c0186961efbebb75d05462028c8432c5d8fc7f1b2f3d",
-      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "detected_at": "2026-10-22T05:10:07.115759+00:00",
+      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
       "old_length": 21863,
       "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,11 +399,6 @@  182.  Classificação  Temática -Economia -e -Desenvolvimento -/ -Tributos  Administração  Pública  / @@ -413,6 +408,11 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos  Organização  do  Estado",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-decreto-12955-2026",
-      "country": "BR",
-      "title": "第12,955/2026号法令",
-      "topic": "CBS实施细则",
-      "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-10-21T05:06:58.440078+00:00",
-      "old_sha256": "57221810b2247f59518c0010f586caa38c89003e4acd732720e4b7da7c5d1d1f",
-      "new_sha256": "39c7eaa74b20594380e3b533d428221043b993f1d65fb0c34555ce5cc3961c64",
-      "old_length": 9587,
-      "new_length": 9587,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Administração -Tributária +Contribuição +Social  Economia  e  Desenvolvimento  /  Tributos  / -Contribuição -Social +Administração +Tributária  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,16 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -419,16 +429,6 @@  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -46,19 +28,11 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
@@ -70,7 +44,7 @@
     },
     {
       "id": "br-decreto-12955-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lei-14902-2024",

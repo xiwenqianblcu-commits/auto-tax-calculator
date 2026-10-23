@@ -1,26 +1,44 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-22T05:10:07.115759+00:00",
+  "run_at": "2026-10-23T05:09:39.213723+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 1,
+  "changed_count": 2,
   "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-decreto-12955-2026",
       "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-10-22T05:10:07.115759+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
-      "old_length": 21863,
-      "new_length": 21863,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,16 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -419,16 +429,6 @@  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
+      "title": "第12,955/2026号法令",
+      "topic": "CBS实施细则",
+      "url": "https://legis.senado.leg.br/norma/43106091",
+      "detected_at": "2026-10-23T05:09:39.213723+00:00",
+      "old_sha256": "39c7eaa74b20594380e3b533d428221043b993f1d65fb0c34555ce5cc3961c64",
+      "new_sha256": "8bab371d7d6f5050567dca2326e4eb9afca513959b57ed2876e13a4ea341ff80",
+      "old_length": 9587,
+      "new_length": 10426,
+      "length_delta": 839,
+      "diff_excerpt": "--- previous +++ observed @@ -869,6 +869,102 @@  caput  -  Revogação +Decreto +nº +13.140 +de +21/10/2026 +Declaração +de +Alteração +Permanente +Publicação +Original +[Diário +Oficial +da +União +- +Edição +Extra +de +21/10/2026 +- +nº +199-A] +(p. +2, +col. +1) +Art. +105, +§ +3, +Inciso +6, +Alínea +b +- +Ressalva +Art. +115, +caput, +Inciso +6, +Alínea +b +- +Ressalva +Ficam +dispensadas, +para +o +nanoempreendedor, +as +exigências +de +inscrição +no +Cadastro +Nacional +de +Pessoas +Jurídicas +(CNPJ), +prevista +na +alínea +\"b\" +do +inc. +VI +do +§ +3º +do +art. +105 +e +de +emissão +de +documentos +fiscais +eletrônicos +de +que +trata +a +alínea +\"b\" +do +inc. +VI +do +caput +do +art. +115.  Normas  alteradas  ou @@ -879,91 +975,3 @@  que  foram  alteradas -pela -presente -norma... -Lei -nº -7.965 -de -22/12/1989 -Declaração -de -Ressalva -Permanente -da -Norma -no -todo -Lei -nº -8.210 -de -19/07/1991 -Declaração -de -Ressalva -Permanente -da -Norma -no -todo -Lei -nº -8.256 -de -25/11/1991 -Declaração -de -Ressalva -Permanente -da -Norma -no -todo -Lei -nº -8.387 -de -30/12/1991 -Declaração -de -Alteração -Permanente -Art. -11 -- -Ressalva -Lei -nº -8.857 -de -08/03/1994 -Declaração -de -Ressalva -Permanente -da -Norma -no -todo -Lei -nº -9.532 -de -10/12/1997 -Declaração -de -Legislação -Correlata -Art. -53 -- -Dispositivo -Correlato -Lei -nº -9.718 -de -27/11/1998 -Decl",
+      "parser": "html",
+      "page_count": null,
+      "needs_ocr": false,
+      "review_status": "pending"
+    },
+    {
+      "id": "br-receita-orientacoes-2026",
+      "country": "BR",
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-10-23T05:09:39.213723+00:00",
+      "old_sha256": "0e56d3f495c9272157d310b84bc1f10f9f0849195016c35515954bda3d27e822",
+      "new_sha256": "083693e698c62f38414ee5cb62d6e802d54f0b67e0483f5a2aaf35fe1078a5fb",
+      "old_length": 3369,
+      "new_length": 3340,
+      "length_delta": -29,
+      "diff_excerpt": "--- previous +++ observed @@ -353,13 +353,10 @@  Consultar  CNPJ  6 -Obter -passaporte -e -outros -documentos -de -viagem +Emitir +DAS +do +MEI  Serviços  em  destaque",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -40,11 +58,11 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-lei-14902-2024",
@@ -60,7 +78,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",

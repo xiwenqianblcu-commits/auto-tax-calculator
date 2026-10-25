@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-24T04:52:43.033819+00:00",
+  "run_at": "2026-10-25T05:03:39.347642+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 3,
+  "changed_count": 2,
   "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-lcp-214-2025",
       "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-10-24T04:52:43.033819+00:00",
-      "old_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
-      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "old_length": 21863,
-      "new_length": 21863,
+      "title": "补充法第214/2025号",
+      "topic": "CBS、IBS与选择性税",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detected_at": "2026-10-25T05:03:39.347642+00:00",
+      "old_sha256": "cb20843e8158e0086bb0e9c75b83215c2d926f90cbf38f360f9a4ee4b2e48eb7",
+      "new_sha256": "52511d02fc89db4f61828776d595879f533f37da6c851569b4d00b6b35d6cf29",
+      "old_length": 70003,
+      "new_length": 70003,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,16 +399,6 @@  182.  Classificação  Temática -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Administração  Pública  / @@ -429,6 +419,16 @@  /  Organização  Federativa +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Indexação  Clique  para",
+      "diff_excerpt": "",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -32,31 +32,13 @@
       "title": "第12,955/2026号法令",
       "topic": "CBS实施细则",
       "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-10-24T04:52:43.033819+00:00",
-      "old_sha256": "8bab371d7d6f5050567dca2326e4eb9afca513959b57ed2876e13a4ea341ff80",
-      "new_sha256": "0dd0b1e865db7cd6c77d3d9c16d9f61651d78d223ed4a77804793077799d64fa",
+      "detected_at": "2026-10-25T05:03:39.347642+00:00",
+      "old_sha256": "0dd0b1e865db7cd6c77d3d9c16d9f61651d78d223ed4a77804793077799d64fa",
+      "new_sha256": "8bab371d7d6f5050567dca2326e4eb9afca513959b57ed2876e13a4ea341ff80",
       "old_length": 10426,
       "new_length": 10426,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Contribuição -Social +Administração +Tributária  Economia  e  Desenvolvimento  /  Tributos  / -Administração -Tributária +Contribuição +Social  Indexação  Clique  para",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-receita-orientacoes-2026",
-      "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-10-24T04:52:43.033819+00:00",
-      "old_sha256": "083693e698c62f38414ee5cb62d6e802d54f0b67e0483f5a2aaf35fe1078a5fb",
-      "new_sha256": "54f3d5c2ee00f30b4df201417ab7d6f14d70b40f053e3f759ebdd4cfa160610d",
-      "old_length": 3340,
-      "new_length": 3372,
-      "length_delta": 32,
-      "diff_excerpt": "--- previous +++ observed @@ -350,13 +350,18 @@  Consultar  CPF  5 -Consultar -CNPJ -6  Emitir  DAS  do  MEI +6 +Obter +passaporte +e +outros +documentos +de +viagem  Serviços  em  destaque",
+      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Administração -Tributária +Contribuição +Social  Economia  e  Desenvolvimento  /  Tributos  / -Contribuição -Social +Administração +Tributária  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -72,11 +54,11 @@
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -96,7 +78,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-30T06:10:08.817745+00:00",
+  "run_at": "2026-10-31T06:05:18.747974+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
@@ -9,18 +9,18 @@
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-receita-orientacoes-2026",
+      "id": "br-lcp-227-2026",
       "country": "BR",
-      "title": "巴西税务局2026年税改指引",
-      "topic": "CBS与IBS过渡期申报",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detected_at": "2026-10-30T06:10:08.817745+00:00",
-      "old_sha256": "c46237e6812ccd888bd80e5fd52cc4321dbb5b34719a3be4386c209dc1b7cdb9",
-      "new_sha256": "b5226ea30b7232a5c9cd50c29af052a6e4c4407cb9f6ea8ddb0c287d7dc0999d",
-      "old_length": 3934,
-      "new_length": 3934,
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-10-31T06:05:18.747974+00:00",
+      "old_sha256": "f7c801fd97b453029150c0186961efbebb75d05462028c8432c5d8fc7f1b2f3d",
+      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
+      "old_length": 21863,
+      "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -388,19 +388,19 @@  Assinatura  Eletrônica  2 +Obter +passaporte +e +outros +documentos +de +viagem +3  Consultar  Meu  Imposto  de  Renda -3 -Obter -passaporte -e -outros -documentos -de -viagem  4  Consultar  dados",
+      "diff_excerpt": "--- previous +++ observed @@ -399,11 +399,16 @@  182.  Classificação  Temática -Economia -e -Desenvolvimento +Organização +do +Estado  / -Tributos +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -413,22 +418,17 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos  Organização  do  Estado  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -60,7 +60,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-cgibs-res-6-2026",

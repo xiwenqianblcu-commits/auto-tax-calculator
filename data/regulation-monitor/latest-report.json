@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-08T06:27:46.598518+00:00",
+  "run_at": "2026-11-09T06:59:08.720730+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 0,
+  "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,13 +14,13 @@
       "title": "补充法第227/2026号",
       "topic": "IBS管理与税改实施",
       "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-11-08T06:27:46.598518+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "a5ad3866f2a607eafe757ef661194a895885889918d7d37f2ae306bbe8c5a9b3",
+      "detected_at": "2026-11-09T06:59:08.720730+00:00",
+      "old_sha256": "a5ad3866f2a607eafe757ef661194a895885889918d7d37f2ae306bbe8c5a9b3",
+      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
       "old_length": 21863,
       "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,12 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Organização +Federativa  Administração  Pública  / @@ -417,12 +423,6 @@  do  Estado  / -Organização -Federativa -Organização -do -Estado -/  Fiscalização  e  Controle",
+      "diff_excerpt": "--- previous +++ observed @@ -399,12 +399,6 @@  182.  Classificação  Temática -Organização -do -Estado -/ -Organização -Federativa  Administração  Pública  / @@ -423,6 +417,12 @@  do  Estado  / +Organização +Federativa +Organização +do +Estado +/  Fiscalização  e  Controle",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -28,11 +28,19 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",

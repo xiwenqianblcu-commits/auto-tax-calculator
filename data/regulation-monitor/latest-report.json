@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-09T06:59:08.720730+00:00",
+  "run_at": "2026-11-11T06:53:50.916176+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 1,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-227-2026",
+      "id": "br-receita-orientacoes-2026",
       "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-11-09T06:59:08.720730+00:00",
-      "old_sha256": "a5ad3866f2a607eafe757ef661194a895885889918d7d37f2ae306bbe8c5a9b3",
-      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "old_length": 21863,
-      "new_length": 21863,
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-11-11T06:53:50.916176+00:00",
+      "old_sha256": "c3068de52560eaed6d02452ec2314fd25493b548993441c5b7083a85577500dc",
+      "new_sha256": "4fc952afe3edfbbd8e44cdfac6feb0ea2397b866de1fc319e891da81b4dd8d56",
+      "old_length": 3934,
+      "new_length": 3934,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,12 +399,6 @@  182.  Classificação  Temática -Organização -do -Estado -/ -Organização -Federativa  Administração  Pública  / @@ -423,6 +417,12 @@  do  Estado  / +Organização +Federativa +Organização +do +Estado +/  Fiscalização  e  Controle",
+      "diff_excerpt": "--- previous +++ observed @@ -42,8 +42,8 @@  buscados  Desenrola  Brasil +mei  assinatura -mei  enem  imposto  de @@ -53,8 +53,8 @@  buscados  Desenrola  Brasil +mei  assinatura -mei  Curso  Reforma  Tributária",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -28,19 +28,11 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
@@ -48,7 +40,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -68,7 +60,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",

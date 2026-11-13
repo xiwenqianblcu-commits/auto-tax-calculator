@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-12T07:29:39.908523+00:00",
+  "run_at": "2026-11-13T07:01:17.358749+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
+  "changed_count": 1,
   "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
@@ -14,31 +14,13 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-11-12T07:29:39.908523+00:00",
-      "old_sha256": "064e1479eeba2b73756696c94eed334288d1756be62c1e8f095ef641874303fa",
-      "new_sha256": "01cb52431c954008bb17f489d79450378963ac78c178b9ed0fcd97ef888a3da2",
+      "detected_at": "2026-11-13T07:01:17.358749+00:00",
+      "old_sha256": "01cb52431c954008bb17f489d79450378963ac78c178b9ed0fcd97ef888a3da2",
+      "new_sha256": "064e1479eeba2b73756696c94eed334288d1756be62c1e8f095ef641874303fa",
       "old_length": 70180,
       "new_length": 70180,
       "length_delta": 0,
       "diff_excerpt": "",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-lcp-227-2026",
-      "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-11-12T07:29:39.908523+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "f7c801fd97b453029150c0186961efbebb75d05462028c8432c5d8fc7f1b2f3d",
-      "old_length": 21863,
-      "new_length": 21863,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,11 @@  182.  Classificação  Temática +Economia +e +Desenvolvimento +/ +Tributos  Administração  Pública  / @@ -408,11 +413,6 @@  Administração  Pública  Direta -Economia -e -Desenvolvimento -/ -Tributos  Organização  do  Estado",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -48,16 +30,17 @@
   "baselines": [],
   "errors": [
     {
-      "id": "br-cgibs-res-6-2026",
-      "title": "CGIBS第6/2026号决议",
-      "url": "https://www.cgibs.gov.br/upload/arquivos/202604/30084927-res-cgibs-n-6-30-abr-2026-regulamenta-o-ibs.pdf",
-      "detail": "URLError: <urlopen error timed out>"
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     }
   ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
@@ -65,7 +48,7 @@
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -89,8 +72,7 @@
     },
     {
       "id": "br-cgibs-res-6-2026",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error timed out>"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12549-annex-2025",

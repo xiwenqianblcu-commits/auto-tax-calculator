@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-13T07:01:17.358749+00:00",
+  "run_at": "2026-11-15T06:55:58.798935+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 1,
+  "error_count": 4,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-214-2025",
+      "id": "br-lcp-227-2026",
       "country": "BR",
-      "title": "补充法第214/2025号",
-      "topic": "CBS、IBS与选择性税",
-      "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-11-13T07:01:17.358749+00:00",
-      "old_sha256": "01cb52431c954008bb17f489d79450378963ac78c178b9ed0fcd97ef888a3da2",
-      "new_sha256": "064e1479eeba2b73756696c94eed334288d1756be62c1e8f095ef641874303fa",
-      "old_length": 70180,
-      "new_length": 70180,
+      "title": "补充法第227/2026号",
+      "topic": "IBS管理与税改实施",
+      "url": "https://legis.senado.leg.br/norma/42042119",
+      "detected_at": "2026-11-15T06:55:58.798935+00:00",
+      "old_sha256": "f7c801fd97b453029150c0186961efbebb75d05462028c8432c5d8fc7f1b2f3d",
+      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "old_length": 21863,
+      "new_length": 21863,
       "length_delta": 0,
-      "diff_excerpt": "",
+      "diff_excerpt": "--- previous +++ observed @@ -399,11 +399,6 @@  182.  Classificação  Temática -Economia -e -Desenvolvimento -/ -Tributos  Administração  Pública  / @@ -413,6 +408,11 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos  Organização  do  Estado",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -30,25 +30,42 @@
   "baselines": [],
   "errors": [
     {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "id": "br-lei-14902-2024",
+      "title": "第14,902/2024号法律",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "id": "br-decreto-12435-2025",
+      "title": "第12,435/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12435-15-abril-2025-797323-publicacaooriginal-175105-pe.html",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "id": "br-decreto-12549-2025",
+      "title": "第12,549/2025号法令",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-publicacaooriginal-175882-pe.html",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
+    },
+    {
+      "id": "br-decreto-12549-annex-2025",
+      "title": "第12,549/2025号法令附件",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12549-10-julho-2025-797715-anexo-pe.pdf",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
     }
   ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -56,15 +73,18 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
     },
     {
       "id": "br-decreto-12435-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
     },
     {
       "id": "br-decreto-12549-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
     },
     {
       "id": "br-receita-orientacoes-2026",
@@ -76,7 +96,8 @@
     },
     {
       "id": "br-decreto-12549-annex-2025",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "HTTPError: HTTP Error 504: Gateway Timeout"
     }
   ],
   "notice": "监测结果只生成待审核候选，不会自动修改税率计算规则。"

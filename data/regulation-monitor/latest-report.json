@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-17T08:15:56.801923+00:00",
+  "run_at": "2026-11-18T07:48:35.283163+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 1,
+  "error_count": 0,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lei-14902-2024",
+      "id": "br-lcp-214-2025",
       "country": "BR",
-      "title": "第14,902/2024号法律",
-      "topic": "MOVER绿色出行与创新计划",
-      "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14902-27-junho-2024-795862-norma-pl.html",
-      "detected_at": "2026-11-17T08:15:56.801923+00:00",
-      "old_sha256": "bc7b8e5c51fb7c2ad9525429fc75f22a0d24065c9a4cb8cb49daec00f1960f66",
-      "new_sha256": "c1a0193b98d897a6726502530489691b7f7bc59f0e574705f845e1817bf32689",
-      "old_length": 4989,
-      "new_length": 4989,
+      "title": "补充法第214/2025号",
+      "topic": "CBS、IBS与选择性税",
+      "url": "https://legis.senado.leg.br/norma/40180341",
+      "detected_at": "2026-11-18T07:48:35.283163+00:00",
+      "old_sha256": "064e1479eeba2b73756696c94eed334288d1756be62c1e8f095ef641874303fa",
+      "new_sha256": "200bb9cd20ecac8751704d2741d81256755777af021d56e4ffeb0131ecd8d2d9",
+      "old_length": 70180,
+      "new_length": 70180,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -299,7 +299,7 @@  n°  409  de -2.024. +2,024.  Art.  2º,  §",
+      "diff_excerpt": "",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -28,23 +28,15 @@
     }
   ],
   "baselines": [],
-  "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
-    }
-  ],
+  "errors": [],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "unchanged"
+      "outcome": "changed"
     },
     {
       "id": "br-lcp-227-2026",
@@ -56,7 +48,7 @@
     },
     {
       "id": "br-lei-14902-2024",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12435-2025",

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-19T07:44:32.251266+00:00",
+  "run_at": "2026-11-20T07:36:21.778478+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 1,
-  "error_count": 0,
+  "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,9 +14,9 @@
       "title": "补充法第214/2025号",
       "topic": "CBS、IBS与选择性税",
       "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-11-19T07:44:32.251266+00:00",
-      "old_sha256": "200bb9cd20ecac8751704d2741d81256755777af021d56e4ffeb0131ecd8d2d9",
-      "new_sha256": "064e1479eeba2b73756696c94eed334288d1756be62c1e8f095ef641874303fa",
+      "detected_at": "2026-11-20T07:36:21.778478+00:00",
+      "old_sha256": "064e1479eeba2b73756696c94eed334288d1756be62c1e8f095ef641874303fa",
+      "new_sha256": "200bb9cd20ecac8751704d2741d81256755777af021d56e4ffeb0131ecd8d2d9",
       "old_length": 70180,
       "new_length": 70180,
       "length_delta": 0,
@@ -28,11 +28,19 @@
     }
   ],
   "baselines": [],
-  "errors": [],
+  "errors": [
+    {
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+    }
+  ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",

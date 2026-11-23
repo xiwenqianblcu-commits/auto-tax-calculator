@@ -1,44 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-21T07:31:55.299673+00:00",
+  "run_at": "2026-11-23T07:58:26.717241+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
-  "changed_count": 2,
+  "changed_count": 1,
   "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
     {
-      "id": "br-lcp-214-2025",
+      "id": "br-receita-orientacoes-2026",
       "country": "BR",
-      "title": "补充法第214/2025号",
-      "topic": "CBS、IBS与选择性税",
-      "url": "https://legis.senado.leg.br/norma/40180341",
-      "detected_at": "2026-11-21T07:31:55.299673+00:00",
-      "old_sha256": "200bb9cd20ecac8751704d2741d81256755777af021d56e4ffeb0131ecd8d2d9",
-      "new_sha256": "064e1479eeba2b73756696c94eed334288d1756be62c1e8f095ef641874303fa",
-      "old_length": 70180,
-      "new_length": 70180,
+      "title": "巴西税务局2026年税改指引",
+      "topic": "CBS与IBS过渡期申报",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
+      "detected_at": "2026-11-23T07:58:26.717241+00:00",
+      "old_sha256": "4fc952afe3edfbbd8e44cdfac6feb0ea2397b866de1fc319e891da81b4dd8d56",
+      "new_sha256": "06199d865480061689941faca2fe7599383f2d1175b3e12de6d6c1498ccd2a96",
+      "old_length": 3934,
+      "new_length": 3934,
       "length_delta": 0,
-      "diff_excerpt": "",
-      "parser": "html",
-      "page_count": null,
-      "needs_ocr": false,
-      "review_status": "pending"
-    },
-    {
-      "id": "br-lcp-227-2026",
-      "country": "BR",
-      "title": "补充法第227/2026号",
-      "topic": "IBS管理与税改实施",
-      "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-11-21T07:31:55.299673+00:00",
-      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
-      "new_sha256": "e5207745393d04c4ab3596f6e99f2132ee21d97afd709ca49fe557dddcbdef52",
-      "old_length": 21863,
-      "new_length": 21863,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,16 @@  182.  Classificação  Temática +Organização +do +Estado +/ +Fiscalização +e +Controle +/ +Controle +Externo  Administração  Pública  / @@ -419,16 +429,6 @@  /  Organização  Federativa -Organização -do -Estado -/ -Fiscalização -e -Controle -/ -Controle -Externo  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -408,13 +408,13 @@  Cadastro  Único  5 +Emitir +DAS +do +MEI +6  Consultar  CPF -6 -Emitir -DAS -do -MEI  Serviços  em  destaque",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -48,24 +30,25 @@
   "baselines": [],
   "errors": [
     {
-      "id": "br-receita-orientacoes-2026",
-      "title": "巴西税务局2026年税改指引",
-      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/programas-e-atividades/reforma-tributaria-do-consumo/orientacoes-2026",
-      "detail": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+      "id": "br-ec-132-2023",
+      "title": "宪法修正案第132/2023号",
+      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
     }
   ],
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "unchanged"
+      "outcome": "error",
+      "detail": "IncompleteRead: IncompleteRead(262454 bytes read)"
     },
     {
       "id": "br-lcp-214-2025",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-227-2026",
-      "outcome": "changed"
+      "outcome": "unchanged"
     },
     {
       "id": "br-decreto-12955-2026",
@@ -85,8 +68,7 @@
     },
     {
       "id": "br-receita-orientacoes-2026",
-      "outcome": "error",
-      "detail": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+      "outcome": "changed"
     },
     {
       "id": "br-cgibs-res-6-2026",

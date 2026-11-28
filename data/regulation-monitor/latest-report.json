@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-27T08:54:31.758494+00:00",
+  "run_at": "2026-11-28T08:15:00.803882+00:00",
   "status": "review_required",
   "source_count": 10,
   "baseline_count": 0,
   "changed_count": 2,
-  "error_count": 2,
+  "error_count": 1,
   "pdf_source_count": 2,
   "changes": [
     {
@@ -14,13 +14,13 @@
       "title": "补充法第227/2026号",
       "topic": "IBS管理与税改实施",
       "url": "https://legis.senado.leg.br/norma/42042119",
-      "detected_at": "2026-11-27T08:54:31.758494+00:00",
-      "old_sha256": "93a65600fea4a02a74fd55b5e04d9c447bd12d66846ce515cd4470d902394290",
-      "new_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "detected_at": "2026-11-28T08:15:00.803882+00:00",
+      "old_sha256": "91df408eff2e5f84097d5ac56f997cdb7781d834ed9249e6f3e309010432ae25",
+      "new_sha256": "3f4c6e5445897b6ce0ae87a46c74477a52cba64724f51c84b542b3f62273cebc",
       "old_length": 21863,
-      "new_length": 21863,
-      "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -399,17 +399,6 @@  182.  Classificação  Temática -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa  Administração  Pública  / @@ -419,6 +408,17 @@  Administração  Pública  Direta +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa  Organização  do  Estado",
+      "new_length": 21888,
+      "length_delta": 25,
+      "diff_excerpt": "--- previous +++ observed @@ -399,6 +399,17 @@  182.  Classificação  Temática +Economia +e +Desenvolvimento +/ +Tributos +Organização +do +Estado +/ +Organização +Federativa  Administração  Pública  / @@ -408,17 +419,6 @@  Administração  Pública  Direta -Economia -e -Desenvolvimento -/ -Tributos -Organização -do -Estado -/ -Organização -Federativa  Organização  do  Estado",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -32,13 +32,13 @@
       "title": "第12,955/2026号法令",
       "topic": "CBS实施细则",
       "url": "https://legis.senado.leg.br/norma/43106091",
-      "detected_at": "2026-11-27T08:54:31.758494+00:00",
-      "old_sha256": "0dd0b1e865db7cd6c77d3d9c16d9f61651d78d223ed4a77804793077799d64fa",
-      "new_sha256": "8bab371d7d6f5050567dca2326e4eb9afca513959b57ed2876e13a4ea341ff80",
+      "detected_at": "2026-11-28T08:15:00.803882+00:00",
+      "old_sha256": "8bab371d7d6f5050567dca2326e4eb9afca513959b57ed2876e13a4ea341ff80",
+      "new_sha256": "0dd0b1e865db7cd6c77d3d9c16d9f61651d78d223ed4a77804793077799d64fa",
       "old_length": 10426,
       "new_length": 10426,
       "length_delta": 0,
-      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Administração -Tributária +Contribuição +Social  Economia  e  Desenvolvimento  /  Tributos  / -Contribuição -Social +Administração +Tributária  Indexação  Clique  para",
+      "diff_excerpt": "--- previous +++ observed @@ -247,16 +247,16 @@  /  Tributos  / -Contribuição -Social +Administração +Tributária  Economia  e  Desenvolvimento  /  Tributos  / -Administração -Tributária +Contribuição +Social  Indexação  Clique  para",
       "parser": "html",
       "page_count": null,
       "needs_ocr": false,
@@ -47,12 +47,6 @@
   ],
   "baselines": [],
   "errors": [
-    {
-      "id": "br-ec-132-2023",
-      "title": "宪法修正案第132/2023号",
-      "url": "https://legis.senado.leg.br/norma/37959796/publicacao/37963893",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
-    },
     {
       "id": "br-receita-orientacoes-2026",
       "title": "巴西税务局2026年税改指引",
@@ -63,8 +57,7 @@
   "results": [
     {
       "id": "br-ec-132-2023",
-      "outcome": "error",
-      "detail": "IncompleteRead: IncompleteRead(229376 bytes read)"
+      "outcome": "unchanged"
     },
     {
       "id": "br-lcp-214-2025",
